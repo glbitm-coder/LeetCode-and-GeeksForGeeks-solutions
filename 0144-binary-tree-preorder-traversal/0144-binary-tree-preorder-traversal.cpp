@@ -13,16 +13,29 @@ class Solution {
 public:
     vector<int> preorderTraversal(TreeNode* root) {
         
+        stack<TreeNode* > sck;
         vector<int> ans;
+        
         if(root == NULL)
         {
             return ans;
         }
-        vector<int> leftValues = preorderTraversal(root->left);
-        vector<int> rightValues = preorderTraversal(root->right);
-        ans.insert(ans.begin(), root->val);
-        ans.insert(ans.end(), leftValues.begin(), leftValues.end());
-        ans.insert(ans.end(), rightValues.begin(), rightValues.end());
+        sck.push(root);
+        while(!sck.empty())
+        {
+            TreeNode* curr = sck.top();
+            ans.push_back(curr->val);
+            sck.pop();
+            if(curr->right)
+            {
+                sck.push(curr->right);
+            }
+            if(curr->left)
+            {
+                sck.push(curr->left);
+            }
+        }
         return ans;
+        
     }
 };
