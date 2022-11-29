@@ -21,11 +21,13 @@ public:
          stack<TreeNode*> sck;
         while(true)
         {
+            //Find the leftmost child
             while(curr->left != NULL)
             {
                 sck.push(curr);
                 curr = curr->left;
             }
+            //Popping the nodes  until untraversed right subtree is not there
             while(curr->right == NULL || curr->right == prev)
             {
                 ans.push_back(curr->val);
