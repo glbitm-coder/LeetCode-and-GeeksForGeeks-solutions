@@ -19,22 +19,18 @@ public:
             return ans;
         }
         stack<TreeNode* > sck;
-        sck.push(root);
-        while(!sck.empty())
+        while(!sck.empty() || curr)
         {
-            while(curr && curr->left != NULL)
+            while(curr  != NULL)
             {
-                curr = curr->left;
                 sck.push(curr);
+                curr = curr->left;
             }
             
             curr = sck.top();
             ans.push_back(curr->val);
             sck.pop();
-            if(curr->right)
-            {
-                sck.push(curr->right);
-            }
+            
             curr = curr->right;
             
         }
