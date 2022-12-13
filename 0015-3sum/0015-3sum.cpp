@@ -7,8 +7,7 @@ public:
         sort(nums.begin(), nums.end());
         for(int i = 0 ; i < n; ++i)
         {
-            int start = i + 1;
-            int end = n - 1;
+            int start = i + 1, end = n - 1;
             if(i > 0 and nums[i] == nums[i - 1])
             {
                 continue;
