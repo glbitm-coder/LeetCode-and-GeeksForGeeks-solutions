@@ -1,15 +1,14 @@
 class Solution {
 public:
     int minFallingPathSum(vector<vector<int>>& matrix) {
-        int n = (int)matrix.size();
-        int m = (int)matrix[0].size();
-        for(int i = n - 2; i >= 0; --i)
+        
+        for(int i = matrix.size() - 2; i >= 0; --i)
         {
-            for(int j = 0; j < m; ++j)
+            for(int j = 0; j < matrix[0].size(); ++j)
             {
-                if(j == 0 || j == m - 1)
+                if(j == 0 || j == matrix[0].size() - 1)
                 {
-                    if(j == 0 && j == m - 1)
+                    if(j == 0 && j == matrix[0].size() - 1)
                     {
                         matrix[i][j] += matrix[i + 1][j];
                     }
