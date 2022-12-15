@@ -15,7 +15,7 @@ public:
             {
                 vector<int> temp = ans[ans.size() - 1];
                 
-                if((temp[0] >= intervals[i][0] && temp[0] <= intervals[i][1]) || (temp[1] >= intervals[i][0] && temp[1] <= intervals[i][1]) || (temp[0] <= intervals[i][0] && temp[1] >= intervals[i][0]) || (temp[0] <= intervals[i][1] && temp[1] >= intervals[i][1]))
+                if(temp[1] >= intervals[i][0] )
                 {
                     ans[ans.size() - 1][0] = min(ans[ans.size() - 1][0], intervals[i][0]);
                     ans[ans.size() - 1][1] = max(ans[ans.size() - 1][1], intervals[i][1]);
