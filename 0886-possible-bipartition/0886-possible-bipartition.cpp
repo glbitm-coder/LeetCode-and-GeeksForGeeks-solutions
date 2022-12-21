@@ -1,6 +1,4 @@
-#define WHITE 0
-#define RED 1
-#define BLUE 2
+
 class Solution {
 public:
     //bipartite graph
