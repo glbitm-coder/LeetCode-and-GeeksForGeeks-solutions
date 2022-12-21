@@ -3,6 +3,7 @@
 #define BLUE 2
 class Solution {
 public:
+    //bipartite graph
     bool possibleBipartition(int n, vector<vector<int>>& edges) {
         int len = (int)edges.size();
         unordered_map<int, vector<int> > mp;
