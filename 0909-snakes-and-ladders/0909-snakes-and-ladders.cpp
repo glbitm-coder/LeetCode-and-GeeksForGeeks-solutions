@@ -24,6 +24,7 @@ public:
             }
         }
         
+        //DFS
         vector<int>dist(n*n, INT_MAX);
         queue<int> q;
         q.push(0);
