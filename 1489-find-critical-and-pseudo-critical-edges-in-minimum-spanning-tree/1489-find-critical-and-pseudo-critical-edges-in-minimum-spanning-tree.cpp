@@ -1,72 +1,96 @@
-class UnionFind {
-public: 
-    vector<int> parent; 
-    UnionFind(int n){
-        parent.resize(n);
-        for(int i=0;i<n;i++)
-            parent[i] = i; 
-    }
-    
-    int findParent(int p) {
-        return parent[p] == p ? p : parent[p] = findParent(parent[p]); 
-    }
-    
-    void Union(int u , int v) {
-        int pu = findParent(u) , pv = findParent(v); 
-        parent[pu] = pv;
-    }    
-};
-
 class Solution {
-public:    
-    static bool cmp(vector<int>&a , vector<int>&b) {
-        return a[2] < b[2]; 
+public:
+    class UnionFind{
+        public:
+        int size;
+        vector<int> parents;
+         
+        UnionFind(int n){
+            parents.resize(n);
+            for(int i = 0; i < n; ++i)
+            {
+                parents[i] = i;
+            }
+            size = n;
+        }
+        
+        int find(int n){
+            if(parents[n] == n) return n;
+            
+            int root = find(parents[n]);
+            parents[n] = root;
+            return root;
+        }
+        
+        bool Union(int i, int j){
+            int root_i = find(i);
+            int root_j = find(j);
+            
+            if(root_i != root_j)
+            {
+                parents[root_i] = root_j;
+                --size;
+                return true;
+            }
+            return false;
+        }
+        
+    };
+    int findMSTCost(int n, vector<vector<int>>& edges, vector<int>& include, vector<int>& exclude)
+    {
+        UnionFind uf(n);
+        int cost = 0;
+        if(include.size() != 0)
+        {
+            uf.Union(include[0],include[1]);
+            cost += include[2];
+        }
+        for(auto &edge: edges)
+        {
+            if(exclude != edge && uf.Union(edge[0], edge[1])){
+                cost += edge[2];
+            }
+        }
+        for(int i = 0; i < n; ++i){
+            if(uf.find(i) != uf.find(0)) return INT_MAX;
+        }
+        return cost;
     }
-    
+    static bool cmp(vector<int> &a, vector<int> &b){
+        return a[2] < b[2];
+    }
     vector<vector<int>> findCriticalAndPseudoCriticalEdges(int n, vector<vector<int>>& edges) {
-        vector<int> critical ,  pscritical ;
-        //1
-        for(int i=0;i<edges.size();i++)
-            edges[i].push_back(i); 
+        vector<vector<int>> ans;
+        vector<int> critical_edges;
+        vector<int> pseudo_critical_edges;
+        vector<int> include;
+        vector<int> exclude;
         
-        //2 
-        sort(edges.begin() , edges.end() , cmp) ;
+         for(int i=0;i<edges.size();i++){
+            edges[i].push_back(i);
+         }
         
-        int mstwt = findMST(n,edges,-1,-1); //3
-        for(int i=0;i<edges.size();i++){
-            if(mstwt< findMST(n,edges,i,-1)) //5
-                critical.push_back(edges[i][3]); 
-            else if(mstwt == findMST(n,edges,-1,i))  //6
-                pscritical.push_back(edges[i][3]);
+        sort(edges.begin(), edges.end(), cmp);
+        
+        int minCost = findMSTCost(n, edges, include, exclude);
+        
+        for(int i = 0; i < edges.size(); ++i)
+        {
+           int excludeCost = findMSTCost(n, edges, include, edges[i]);
+            if(excludeCost > minCost)
+            {
+                critical_edges.push_back(edges[i][3]);
+            }
+            else{
+                int includeCost = findMSTCost(n, edges, edges[i], exclude);
+                if(includeCost == minCost)
+                {
+                    pseudo_critical_edges.push_back(edges[i][3]);
+                }
+            }
         }
-        return {critical , pscritical};         
+        ans.push_back(critical_edges);
+        ans.push_back(pseudo_critical_edges);
+        return ans;
     }
-    
-private:
-    int findMST(int &n ,  vector<vector<int>>& edges , int block , int e) {
-        UnionFind uf(n); 
-        int weight = 0 ;
-        if(e != -1) {
-            weight += edges[e][2]; 
-            uf.Union(edges[e][0] , edges[e][1]); 
-        }
-        
-        for(int i=0;i<edges.size();i++){
-            if(i == block) 
-                continue; 
-            if(uf.findParent(edges[i][0]) == uf.findParent(edges[i][1])) //4
-                continue; 
-            uf.Union(edges[i][0] , edges[i][1]); 
-            weight += edges[i][2]; 
-        }
-        
-        //Check if all vertices are included then only it is MST. 
-        for(int i=0;i<n;i++){
-            if(uf.findParent(i) != uf.findParent(0))
-                return INT_MAX;
-        }    
-        
-        return weight; 
-    }
-    
 };
