@@ -40,7 +40,6 @@ public:
             }
             q.pop();
             visited[curr.first][curr.second] = true;
-            cout<<curr.first<<" "<<curr.second<<"\n";
             for(int i = 0; i < 4; ++i){
                 int var_x = curr.first + x[i];
                 int var_y = curr.second + y[i];
