@@ -12,6 +12,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 # Breadth-First Search
 |  |
 | ------- |
+| [0127-word-ladder](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/0127-word-ladder) |
 | [0130-surrounded-regions](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/0130-surrounded-regions) |
 | [0547-number-of-provinces](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/0547-number-of-provinces) |
 | [0733-flood-fill](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/0733-flood-fill) |
@@ -41,3 +42,11 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0733-flood-fill](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/0733-flood-fill) |
 | [1036-rotting-oranges](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/1036-rotting-oranges) |
 | [1073-number-of-enclaves](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/1073-number-of-enclaves) |
+# Hash Table
+|  |
+| ------- |
+| [0127-word-ladder](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/0127-word-ladder) |
+# String
+|  |
+| ------- |
+| [0127-word-ladder](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/0127-word-ladder) |
