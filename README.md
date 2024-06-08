@@ -8,6 +8,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0130-surrounded-regions](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/0130-surrounded-regions) |
 | [0547-number-of-provinces](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/0547-number-of-provinces) |
 | [0733-flood-fill](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/0733-flood-fill) |
+| [0801-is-graph-bipartite](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/0801-is-graph-bipartite) |
 | [1073-number-of-enclaves](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/1073-number-of-enclaves) |
 # Breadth-First Search
 |  |
@@ -16,6 +17,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0130-surrounded-regions](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/0130-surrounded-regions) |
 | [0547-number-of-provinces](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/0547-number-of-provinces) |
 | [0733-flood-fill](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/0733-flood-fill) |
+| [0801-is-graph-bipartite](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/0801-is-graph-bipartite) |
 | [1036-rotting-oranges](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/1036-rotting-oranges) |
 | [1073-number-of-enclaves](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/1073-number-of-enclaves) |
 # Union Find
@@ -23,11 +25,13 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0130-surrounded-regions](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/0130-surrounded-regions) |
 | [0547-number-of-provinces](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/0547-number-of-provinces) |
+| [0801-is-graph-bipartite](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/0801-is-graph-bipartite) |
 | [1073-number-of-enclaves](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/1073-number-of-enclaves) |
 # Graph
 |  |
 | ------- |
 | [0547-number-of-provinces](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/0547-number-of-provinces) |
+| [0801-is-graph-bipartite](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/0801-is-graph-bipartite) |
 # Array
 |  |
 | ------- |
