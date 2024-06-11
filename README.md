@@ -26,6 +26,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0820-find-eventual-safe-states](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/0820-find-eventual-safe-states) |
 | [1036-rotting-oranges](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/1036-rotting-oranges) |
 | [1073-number-of-enclaves](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/1073-number-of-enclaves) |
+| [1171-shortest-path-in-binary-matrix](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/1171-shortest-path-in-binary-matrix) |
 # Union Find
 |  |
 | ------- |
@@ -48,6 +49,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0733-flood-fill](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/0733-flood-fill) |
 | [1036-rotting-oranges](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/1036-rotting-oranges) |
 | [1073-number-of-enclaves](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/1073-number-of-enclaves) |
+| [1171-shortest-path-in-binary-matrix](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/1171-shortest-path-in-binary-matrix) |
 # Matrix
 |  |
 | ------- |
@@ -55,6 +57,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0733-flood-fill](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/0733-flood-fill) |
 | [1036-rotting-oranges](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/1036-rotting-oranges) |
 | [1073-number-of-enclaves](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/1073-number-of-enclaves) |
+| [1171-shortest-path-in-binary-matrix](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/1171-shortest-path-in-binary-matrix) |
 # Hash Table
 |  |
 | ------- |
