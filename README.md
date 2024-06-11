@@ -13,6 +13,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0801-is-graph-bipartite](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/0801-is-graph-bipartite) |
 | [0820-find-eventual-safe-states](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/0820-find-eventual-safe-states) |
 | [1073-number-of-enclaves](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/1073-number-of-enclaves) |
+| [1753-path-with-minimum-effort](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/1753-path-with-minimum-effort) |
 # Breadth-First Search
 |  |
 | ------- |
@@ -27,6 +28,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1036-rotting-oranges](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/1036-rotting-oranges) |
 | [1073-number-of-enclaves](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/1073-number-of-enclaves) |
 | [1171-shortest-path-in-binary-matrix](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/1171-shortest-path-in-binary-matrix) |
+| [1753-path-with-minimum-effort](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/1753-path-with-minimum-effort) |
 # Union Find
 |  |
 | ------- |
@@ -34,6 +36,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0547-number-of-provinces](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/0547-number-of-provinces) |
 | [0801-is-graph-bipartite](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/0801-is-graph-bipartite) |
 | [1073-number-of-enclaves](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/1073-number-of-enclaves) |
+| [1753-path-with-minimum-effort](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/1753-path-with-minimum-effort) |
 # Graph
 |  |
 | ------- |
@@ -50,6 +53,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1036-rotting-oranges](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/1036-rotting-oranges) |
 | [1073-number-of-enclaves](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/1073-number-of-enclaves) |
 | [1171-shortest-path-in-binary-matrix](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/1171-shortest-path-in-binary-matrix) |
+| [1753-path-with-minimum-effort](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/1753-path-with-minimum-effort) |
 # Matrix
 |  |
 | ------- |
@@ -58,6 +62,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1036-rotting-oranges](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/1036-rotting-oranges) |
 | [1073-number-of-enclaves](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/1073-number-of-enclaves) |
 | [1171-shortest-path-in-binary-matrix](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/1171-shortest-path-in-binary-matrix) |
+| [1753-path-with-minimum-effort](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/1753-path-with-minimum-effort) |
 # Hash Table
 |  |
 | ------- |
@@ -72,3 +77,11 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0207-course-schedule](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/0207-course-schedule) |
 | [0210-course-schedule-ii](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/0210-course-schedule-ii) |
 | [0820-find-eventual-safe-states](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/0820-find-eventual-safe-states) |
+# Binary Search
+|  |
+| ------- |
+| [1753-path-with-minimum-effort](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/1753-path-with-minimum-effort) |
+# Heap (Priority Queue)
+|  |
+| ------- |
+| [1753-path-with-minimum-effort](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/1753-path-with-minimum-effort) |
