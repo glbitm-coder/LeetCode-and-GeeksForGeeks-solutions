@@ -27,10 +27,10 @@ public:
             {
                 if(ans[it.first] > time + it.second)
                 {
-                    // if()
-                    // {
-
-                    // }
+                    if(ans[it.first] != INT_MAX)
+                    {
+                        s.erase({ans[it.first], it.first});
+                    }
                     ans[it.first] = time + it.second;
                     s.insert({ans[it.first], it.first});
                 }
