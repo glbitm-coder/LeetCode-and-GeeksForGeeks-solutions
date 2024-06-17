@@ -1,7 +1,8 @@
 class DisjointSet
 {
-    vector<int> parent, size;
+    
     public:
+    vector<int> parent, size;
     DisjointSet(int n){
         parent.resize(n + 1);
         size.resize(n + 1);
@@ -78,10 +79,35 @@ public:
     int makeConnected(int n, vector<vector<int>>& connections) {
         int row = connections.size();
         int col = connections[0].size();
-        vector<bool> visited(n, false);
+        // vector<bool> visited(n, false);
 
-        unordered_map<int,vector<int>> graph;
-        createGraph(connections, graph);
-        return bfs(n, connections, visited, graph);
+        // unordered_map<int,vector<int>> graph;
+        // createGraph(connections, graph);
+        // return bfs(n, connections, visited, graph);
+
+        DisjointSet ds(n);
+        int extraEdge = 0;
+        for(int i = 0; i < row; ++i){
+            if(ds.findUPar(connections[i][0]) == ds.findUPar(connections[i][1])){
+                extraEdge++;
+            }
+            else{
+                ds.unionBySize(connections[i][0], connections[i][1]);
+            }
+        }
+
+        int components = 0;
+        for(int i = 0; i < n; ++i){
+            if(ds.parent[i] == i){
+                components++;
+            }
+        }
+
+        if(extraEdge >= components - 1){
+            return components - 1;
+        }
+        else{
+            return -1;
+        }
     }
 };
