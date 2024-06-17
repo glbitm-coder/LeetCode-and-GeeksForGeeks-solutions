@@ -1,3 +1,41 @@
+class DisjointSet
+{
+    vector<int> parent, size;
+    public:
+    DisjointSet(int n){
+        parent.resize(n + 1);
+        size.resize(n + 1);
+        for(int i = 0; i < n; ++i){
+            parent[i] = i;
+            size[i] = 1;
+        }
+    }
+    
+    int findUPar(int node){
+        if(node == parent[node]){
+            return node;
+        }
+        return parent[node] = findUPar(parent[node]);
+    }
+    void unionBySize(int u, int v){
+        int parentU = findUPar(u);
+        int parentV = findUPar(v);
+        
+        if(parentU == parentV)
+            return;
+            
+        if(size[parentU] < size[parentV]){
+            parent[parentU] = parentV;
+            size[parentV] += size[parentU];
+        }
+        else{
+            parent[parentV] = parentU;
+            size[parentU] += size[parentV];
+        }
+    }
+    
+};
+
 class Solution {
 public:
 
@@ -10,13 +48,7 @@ public:
 
     }
 
-    int makeConnected(int n, vector<vector<int>>& connections) {
-        int row = connections.size();
-        int col = connections[0].size();
-        vector<bool> visited(n, false);
-
-        unordered_map<int,vector<int>> graph;
-        createGraph(connections, graph);
+    int bfs(int n, vector<vector<int>> &connections, vector<bool> &visited, unordered_map<int,vector<int>> &graph){
         queue<int> q;
         int no_of_islands = 0;
         for(int i = 0; i < n; ++i){
@@ -41,5 +73,15 @@ public:
             }
         }
         return n - 1 > connections.size() ? -1 : no_of_islands - 1;
+    }
+
+    int makeConnected(int n, vector<vector<int>>& connections) {
+        int row = connections.size();
+        int col = connections[0].size();
+        vector<bool> visited(n, false);
+
+        unordered_map<int,vector<int>> graph;
+        createGraph(connections, graph);
+        return bfs(n, connections, visited, graph);
     }
 };
