@@ -20,10 +20,7 @@ public:
         dp[2] = max(nums[2], nums[1]);
         for(int i = 3; i < nums.size(); ++i){
             dp[i] = max(dp[i - 1], dp[i - 2] + nums[i]);
-            cout<<dp[i]<<" ";
         }
-        cout<<"\n";
-        cout<<ans1<<" "<<dp[n - 1]<<"\n";
         return max(ans1, dp[n - 1]);
 
     }
