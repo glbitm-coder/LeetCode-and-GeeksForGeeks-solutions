@@ -73,6 +73,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0063-unique-paths-ii](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/0063-unique-paths-ii) |
+| [0064-minimum-path-sum](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/0064-minimum-path-sum) |
 | [0130-surrounded-regions](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/0130-surrounded-regions) |
 | [0213-house-robber-ii](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/0213-house-robber-ii) |
 | [0721-accounts-merge](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/0721-accounts-merge) |
@@ -87,6 +88,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0063-unique-paths-ii](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/0063-unique-paths-ii) |
+| [0064-minimum-path-sum](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/0064-minimum-path-sum) |
 | [0130-surrounded-regions](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/0130-surrounded-regions) |
 | [0733-flood-fill](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/0733-flood-fill) |
 | [0794-swim-in-rising-water](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/0794-swim-in-rising-water) |
@@ -130,6 +132,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0062-unique-paths](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/0062-unique-paths) |
 | [0063-unique-paths-ii](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/0063-unique-paths-ii) |
+| [0064-minimum-path-sum](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/0064-minimum-path-sum) |
 | [0213-house-robber-ii](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/0213-house-robber-ii) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/0803-cheapest-flights-within-k-stops) |
 | [1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance) |
