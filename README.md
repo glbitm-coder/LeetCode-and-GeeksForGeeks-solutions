@@ -77,6 +77,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0120-triangle](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/0120-triangle) |
 | [0130-surrounded-regions](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/0130-surrounded-regions) |
 | [0213-house-robber-ii](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/0213-house-robber-ii) |
+| [0416-partition-equal-subset-sum](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/0416-partition-equal-subset-sum) |
 | [0721-accounts-merge](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/0721-accounts-merge) |
 | [0733-flood-fill](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/0733-flood-fill) |
 | [0794-swim-in-rising-water](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/0794-swim-in-rising-water) |
@@ -136,6 +137,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0064-minimum-path-sum](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/0064-minimum-path-sum) |
 | [0120-triangle](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/0120-triangle) |
 | [0213-house-robber-ii](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/0213-house-robber-ii) |
+| [0416-partition-equal-subset-sum](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/0416-partition-equal-subset-sum) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/0803-cheapest-flights-within-k-stops) |
 | [1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance) |
 | [2090-number-of-ways-to-arrive-at-destination](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/2090-number-of-ways-to-arrive-at-destination) |
