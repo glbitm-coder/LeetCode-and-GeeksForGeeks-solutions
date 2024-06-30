@@ -174,6 +174,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0322-coin-change](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/0322-coin-change) |
 | [0494-target-sum](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/0494-target-sum) |
 | [0518-coin-change-ii](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/0518-coin-change-ii) |
+| [1250-longest-common-subsequence](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/1250-longest-common-subsequence) |
 ## Breadth-First Search
 |  |
 | ------- |
@@ -182,4 +183,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0494-target-sum](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/0494-target-sum) |
+## String
+|  |
+| ------- |
+| [1250-longest-common-subsequence](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/1250-longest-common-subsequence) |
 <!---LeetCode Topics End-->
