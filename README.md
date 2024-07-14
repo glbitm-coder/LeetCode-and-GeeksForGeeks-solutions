@@ -168,6 +168,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
 | [0123-best-time-to-buy-and-sell-stock-iii](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/0123-best-time-to-buy-and-sell-stock-iii) |
 | [0188-best-time-to-buy-and-sell-stock-iv](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/0188-best-time-to-buy-and-sell-stock-iv) |
+| [0300-longest-increasing-subsequence](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/0300-longest-increasing-subsequence) |
 | [0309-best-time-to-buy-and-sell-stock-with-cooldown](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/0309-best-time-to-buy-and-sell-stock-with-cooldown) |
 | [0322-coin-change](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/0322-coin-change) |
 | [0494-target-sum](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/0494-target-sum) |
@@ -183,6 +184,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
 | [0123-best-time-to-buy-and-sell-stock-iii](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/0123-best-time-to-buy-and-sell-stock-iii) |
 | [0188-best-time-to-buy-and-sell-stock-iv](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/0188-best-time-to-buy-and-sell-stock-iv) |
+| [0300-longest-increasing-subsequence](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/0300-longest-increasing-subsequence) |
 | [0309-best-time-to-buy-and-sell-stock-with-cooldown](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/0309-best-time-to-buy-and-sell-stock-with-cooldown) |
 | [0322-coin-change](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/0322-coin-change) |
 | [0494-target-sum](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/0494-target-sum) |
@@ -234,4 +236,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [2846-robot-collisions](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/2846-robot-collisions) |
+## Binary Search
+|  |
+| ------- |
+| [0300-longest-increasing-subsequence](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/0300-longest-increasing-subsequence) |
 <!---LeetCode Topics End-->
