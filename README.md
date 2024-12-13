@@ -168,6 +168,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0011-container-with-most-water](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/0011-container-with-most-water) |
 | [0015-3sum](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/0015-3sum) |
 | [0036-valid-sudoku](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/0036-valid-sudoku) |
+| [0042-trapping-rain-water](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/0042-trapping-rain-water) |
 | [0049-group-anagrams](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/0049-group-anagrams) |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
 | [0123-best-time-to-buy-and-sell-stock-iii](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/0123-best-time-to-buy-and-sell-stock-iii) |
@@ -191,6 +192,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Dynamic Programming
 |  |
 | ------- |
+| [0042-trapping-rain-water](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/0042-trapping-rain-water) |
 | [0044-wildcard-matching](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/0044-wildcard-matching) |
 | [0072-edit-distance](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/0072-edit-distance) |
 | [0115-distinct-subsequences](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/0115-distinct-subsequences) |
@@ -249,6 +251,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Stack
 |  |
 | ------- |
+| [0042-trapping-rain-water](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/0042-trapping-rain-water) |
 | [2846-robot-collisions](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/2846-robot-collisions) |
 ## Sorting
 |  |
@@ -288,6 +291,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0011-container-with-most-water](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/0011-container-with-most-water) |
 | [0015-3sum](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/0015-3sum) |
+| [0042-trapping-rain-water](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/0042-trapping-rain-water) |
 | [0125-valid-palindrome](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/0125-valid-palindrome) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [1129-longest-string-chain](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/1129-longest-string-chain) |
@@ -343,4 +347,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0128-longest-consecutive-sequence](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/0128-longest-consecutive-sequence) |
+## Monotonic Stack
+|  |
+| ------- |
+| [0042-trapping-rain-water](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/0042-trapping-rain-water) |
 <!---LeetCode Topics End-->
