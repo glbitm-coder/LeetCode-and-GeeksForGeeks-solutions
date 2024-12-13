@@ -1,91 +1,70 @@
 class Solution {
 public:
-    vector<bool> occur = vector<bool>(10);
-    bool isrowValid(vector<vector<char>>& board)
-    {
-        for(int i = 0; i < (int)board.size(); ++i)
+    bool checkRow(vector<char> &board){
+        unordered_set<char> s;
+        for(int i = 0; i < 9; ++i)
         {
-            for(int j = 0; j <= 9; ++j)
-            {
-                occur[j] = false;
+            if(s.find(board[i]) == s.end()){
+                s.insert(board[i]);
             }
-            for(int j = 0; j < (int)board[0].size(); ++j)
+            else
             {
-                if(board[i][j] != '.')
-                {
-                    if(occur[(int)(board[i][j] - '0')]){
-                        return false;
-                    }
-                     else{
-                         occur[(int)board[i][j] - '0'] = true;
-                     }         
-                }
-            }
-        }
-        return true;
-    }
-    bool iscolValid(vector<vector<char>>& board)
-    {
-        for(int i = 0; i < (int)board[0].size(); ++i)
-        {
-            for(int j = 0; j <= 9; ++j)
-            {
-                occur[j] = false;
-            }
-            for(int j = 0; j < (int)board.size(); ++j)
-            {
-                if(board[j][i] != '.')
-                {
-                    if(occur[(int)(board[j][i] - '0')]){
-                        return false;
-                    }
-                     else{
-                         occur[(int)board[j][i] - '0'] = true;
-                     }         
-                }
-            }
-        }
-        return true;
-    }
-    bool isboxValid(vector<vector<char>>& board, int start_row, int start_col)
-    {
-        for(int j = 0; j <= 9; ++j)
-        {
-            occur[j] = false;
-        }
-        for(int i = start_row; i < start_row + 3; ++i)
-        {
-            for(int j = start_col; j < start_col + 3; ++j)
-            {
-                if(board[i][j] != '.')
-                {
-                    if(occur[(int)(board[i][j] - '0')]){
-                        return false;
-                    }
-                     else{
-                         occur[(int)board[i][j] - '0'] = true;
-                     }         
-                }
-            }
-        }
-        return true;
-    }
-    bool isValidSudoku(vector<vector<char>>& board) {
-        if(isrowValid(board) == false || iscolValid(board) == false)
-        {
-            return false;
-        }
-        for(int i = 0; i < (int)board.size(); i = i + 3)
-        {
-            for(int j = 0; j < (int)board[0].size(); j = j + 3)
-            {
-                if(isboxValid(board, i , j) == false)
-                {
+                if(board[i] != '.'){
                     return false;
                 }
             }
         }
+        return true;
+    }
 
-            return true;
+    bool checkBox(vector<vector<char>> &board, int p, int q){
+        unordered_set<char> s;
+        for(int i = p; i < p + 3; ++i){
+            for(int j = q; j < q + 3; ++j){
+                if(s.find(board[i][j]) == s.end()){
+                    s.insert(board[i][j]);
+                }
+                else{
+                    if(board[i][j] != '.'){
+                        return false;
+                    }
+                }
+            }
+        }
+        return true;
+    }
+
+    bool isValidSudoku(vector<vector<char>>& board) {
+        
+        for(int i = 0; i < 9; ++i)
+        {
+            if(!checkRow(board[i])){
+                return false;
+            }
+        }
+
+        for(int i = 0; i < 9; ++i){
+            unordered_set<char> s;
+            for(int j = 0; j < 9; ++j){
+                if(s.find(board[j][i]) == s.end()){
+                    s.insert(board[j][i]);
+                }
+                else{
+                    if(board[j][i] != '.'){
+                        return false;
+                    }
+                }
+            }
+        }
+
+        for(int i = 0; i < 9; i = i + 3)
+        {
+            for(int j = 0; j < 9; j = j + 3){
+                if(!checkBox(board, i, j)){
+                    return false;
+                }
+            }
+        }
+        return true;
     }
 };
