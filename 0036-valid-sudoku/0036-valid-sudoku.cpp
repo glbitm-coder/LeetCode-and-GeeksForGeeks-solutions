@@ -10,10 +10,12 @@ public:
             else
             {
                 if(board[i] != '.'){
+                    s.clear();
                     return false;
                 }
             }
         }
+        s.clear();
         return true;
     }
 
@@ -26,6 +28,7 @@ public:
                 }
                 else{
                     if(board[i][j] != '.'){
+                        s.clear();
                         return false;
                     }
                 }
@@ -51,6 +54,7 @@ public:
                 }
                 else{
                     if(board[j][i] != '.'){
+                        s.clear();
                         return false;
                     }
                 }
