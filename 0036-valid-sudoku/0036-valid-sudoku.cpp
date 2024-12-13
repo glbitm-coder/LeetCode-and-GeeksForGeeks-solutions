@@ -1,15 +1,30 @@
 class Solution {
 public:
-    bool checkRow(vector<char> &board){
+    bool checkRowAndCol(vector<vector<char>> &board, int k){
         unordered_set<char> s;
         for(int i = 0; i < 9; ++i)
         {
-            if(s.find(board[i]) == s.end()){
-                s.insert(board[i]);
+            if(s.find(board[k][i]) == s.end()){
+                s.insert(board[k][i]);
             }
             else
             {
-                if(board[i] != '.'){
+                if(board[k][i] != '.'){
+                    s.clear();
+                    return false;
+                }
+            }
+        }
+        
+        s.clear();
+
+        for(int i = 0; i < 9; ++i){
+            if(s.find(board[i][k]) == s.end()){
+                s.insert(board[i][k]);
+            }
+            else
+            {
+                if(board[i][k] != '.'){
                     s.clear();
                     return false;
                 }
@@ -41,23 +56,8 @@ public:
         
         for(int i = 0; i < 9; ++i)
         {
-            if(!checkRow(board[i])){
+            if(!checkRowAndCol(board, i)){
                 return false;
-            }
-        }
-
-        for(int i = 0; i < 9; ++i){
-            unordered_set<char> s;
-            for(int j = 0; j < 9; ++j){
-                if(s.find(board[j][i]) == s.end()){
-                    s.insert(board[j][i]);
-                }
-                else{
-                    if(board[j][i] != '.'){
-                        s.clear();
-                        return false;
-                    }
-                }
             }
         }
 
