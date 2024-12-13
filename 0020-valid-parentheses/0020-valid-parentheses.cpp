@@ -1,57 +1,27 @@
 class Solution {
 public:
     bool isValid(string s) {
-        stack<char> sck;
-        for(int i = 0; i < (int)s.size(); ++i)
-        {
-            if(sck.empty())
-            {
-                if(s[i] == ']' || s[i] == '}' || s[i] == ')')
-                {
+        string in = "({[";
+        string out = ")}]";
+        stack<char> st;
+        for(auto it:s){
+            if(in.find(it) != string::npos){
+                st.push(it);
+            }
+            else{
+                if(st.empty()) return false;
+                char t = st.top();
+                if((t == in[0] && it == out[0]) || (t == in[1] && it == out[1]) || (t == in[2] && it == out[2])){
+                    st.pop();
+                }
+                else{
                     return false;
                 }
             }
-            if(s[i] == '(' || s[i] == '[' || s[i] == '{')
-            {
-                sck.push(s[i]);
-            }
-            else{
-                if(s[i] == ')')
-                {
-                    if(sck.top() != '(')
-                    {
-                        return false;
-                    }
-                    else{
-                        sck.pop();
-                    }
-                    
-                }
-                else if(s[i] == '}')
-                {
-                    if(sck.top() != '{')
-                    {
-                        return false;
-                    }
-                    else{
-                        sck.pop();
-                    }
-                }
-                else{
-                     if(sck.top() != '[')
-                    {
-                        return false;
-                    }
-                    else{
-                        sck.pop();
-                    }
-                }
-            }
         }
-        if(sck.empty())
-        {
-            return true;
+        if(!st.empty()){
+            return false;
         }
-        return false;
+        return true;
     }
 };
