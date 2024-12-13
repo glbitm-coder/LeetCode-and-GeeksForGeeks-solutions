@@ -165,6 +165,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Array
 |  |
 | ------- |
+| [0036-valid-sudoku](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/0036-valid-sudoku) |
 | [0049-group-anagrams](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/0049-group-anagrams) |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
 | [0123-best-time-to-buy-and-sell-stock-iii](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/0123-best-time-to-buy-and-sell-stock-iii) |
@@ -267,6 +268,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Hash Table
 |  |
 | ------- |
+| [0036-valid-sudoku](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/0036-valid-sudoku) |
 | [0049-group-anagrams](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/0049-group-anagrams) |
 | [0347-top-k-frequent-elements](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/0347-top-k-frequent-elements) |
 | [1129-longest-string-chain](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/1129-longest-string-chain) |
@@ -320,4 +322,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0238-product-of-array-except-self](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/0238-product-of-array-except-self) |
+## Matrix
+|  |
+| ------- |
+| [0036-valid-sudoku](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/0036-valid-sudoku) |
 <!---LeetCode Topics End-->
