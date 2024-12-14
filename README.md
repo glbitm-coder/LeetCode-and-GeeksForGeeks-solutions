@@ -186,6 +186,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0518-coin-change-ii](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/0518-coin-change-ii) |
 | [0673-number-of-longest-increasing-subsequence](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/0673-number-of-longest-increasing-subsequence) |
 | [0714-best-time-to-buy-and-sell-stock-with-transaction-fee](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/0714-best-time-to-buy-and-sell-stock-with-transaction-fee) |
+| [0739-daily-temperatures](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/0739-daily-temperatures) |
 | [1129-longest-string-chain](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/1129-longest-string-chain) |
 | [1207-delete-nodes-and-return-forest](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/1207-delete-nodes-and-return-forest) |
 | [1741-sort-array-by-increasing-frequency](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/1741-sort-array-by-increasing-frequency) |
@@ -260,6 +261,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0042-trapping-rain-water](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/0042-trapping-rain-water) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0155-min-stack](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/0155-min-stack) |
+| [0739-daily-temperatures](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/0739-daily-temperatures) |
 | [2846-robot-collisions](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/2846-robot-collisions) |
 ## Sorting
 |  |
@@ -360,6 +362,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0042-trapping-rain-water](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/0042-trapping-rain-water) |
+| [0739-daily-temperatures](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/0739-daily-temperatures) |
 ## Design
 |  |
 | ------- |
