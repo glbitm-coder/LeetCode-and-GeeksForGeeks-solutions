@@ -2,7 +2,6 @@ class Solution {
 public:
     vector<int> dailyTemperatures(vector<int>& temperatures) {
         stack<pair<int,int>> st;
-        unordered_map<int,int> mp;
         int n = temperatures.size();
         for(int i = n - 1; i >= 0; --i){
             if(st.empty()){
