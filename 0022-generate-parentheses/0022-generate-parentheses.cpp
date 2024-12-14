@@ -9,7 +9,6 @@ public:
             return ans;
         }
         for(auto it:helper(n-1)){
-            s.insert("()" + it);
             for(int i = 0; i < it.size(); ++i){
                 s.insert(it.substr(0,i + 1) + "()" + it.substr(i+1));
             }
