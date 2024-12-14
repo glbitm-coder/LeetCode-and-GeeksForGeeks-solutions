@@ -193,6 +193,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Dynamic Programming
 |  |
 | ------- |
+| [0022-generate-parentheses](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/0022-generate-parentheses) |
 | [0042-trapping-rain-water](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/0042-trapping-rain-water) |
 | [0044-wildcard-matching](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/0044-wildcard-matching) |
 | [0072-edit-distance](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/0072-edit-distance) |
@@ -221,12 +222,14 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Backtracking
 |  |
 | ------- |
+| [0022-generate-parentheses](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/0022-generate-parentheses) |
 | [0093-restore-ip-addresses](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/0093-restore-ip-addresses) |
 | [0494-target-sum](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/0494-target-sum) |
 ## String
 |  |
 | ------- |
 | [0020-valid-parentheses](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/0020-valid-parentheses) |
+| [0022-generate-parentheses](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/0022-generate-parentheses) |
 | [0044-wildcard-matching](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/0044-wildcard-matching) |
 | [0049-group-anagrams](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/0049-group-anagrams) |
 | [0072-edit-distance](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/0072-edit-distance) |
