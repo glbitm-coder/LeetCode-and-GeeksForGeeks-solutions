@@ -5,8 +5,7 @@ public:
         int start = 1,mid = 0, ans = end;
         while(start <= end){
             mid = start + (end - start) / 2;
-            long long int minTime = 0;
-            cout<<mid<<" ";
+            long int minTime = 0;
             for(int i = 0; i < piles.size(); ++i){
 
                 minTime += ceil((double)piles[i] / mid);
