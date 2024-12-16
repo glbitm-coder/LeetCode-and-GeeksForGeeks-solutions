@@ -174,6 +174,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0049-group-anagrams](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/0049-group-anagrams) |
 | [0074-search-a-2d-matrix](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/0074-search-a-2d-matrix) |
 | [0084-largest-rectangle-in-histogram](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/0084-largest-rectangle-in-histogram) |
+| [0088-merge-sorted-array](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/0088-merge-sorted-array) |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
 | [0123-best-time-to-buy-and-sell-stock-iii](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/0123-best-time-to-buy-and-sell-stock-iii) |
 | [0128-longest-consecutive-sequence](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/0128-longest-consecutive-sequence) |
@@ -279,6 +280,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0015-3sum](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/0015-3sum) |
 | [0049-group-anagrams](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/0049-group-anagrams) |
+| [0088-merge-sorted-array](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/0088-merge-sorted-array) |
 | [0347-top-k-frequent-elements](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/0347-top-k-frequent-elements) |
 | [0368-largest-divisible-subset](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/0368-largest-divisible-subset) |
 | [0883-car-fleet](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/0883-car-fleet) |
@@ -323,6 +325,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0011-container-with-most-water](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/0011-container-with-most-water) |
 | [0015-3sum](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/0015-3sum) |
 | [0042-trapping-rain-water](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/0042-trapping-rain-water) |
+| [0088-merge-sorted-array](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/0088-merge-sorted-array) |
 | [0125-valid-palindrome](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/0125-valid-palindrome) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [1129-longest-string-chain](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/1129-longest-string-chain) |
