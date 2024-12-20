@@ -245,6 +245,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## String
 |  |
 | ------- |
+| [0003-longest-substring-without-repeating-characters](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0020-valid-parentheses](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/0020-valid-parentheses) |
 | [0022-generate-parentheses](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/0022-generate-parentheses) |
 | [0044-wildcard-matching](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/0044-wildcard-matching) |
@@ -320,6 +321,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Hash Table
 |  |
 | ------- |
+| [0003-longest-substring-without-repeating-characters](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0036-valid-sudoku](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/0036-valid-sudoku) |
 | [0049-group-anagrams](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/0049-group-anagrams) |
 | [0128-longest-consecutive-sequence](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/0128-longest-consecutive-sequence) |
@@ -407,4 +409,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0155-min-stack](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/0155-min-stack) |
 | [1023-time-based-key-value-store](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/1023-time-based-key-value-store) |
+## Sliding Window
+|  |
+| ------- |
+| [0003-longest-substring-without-repeating-characters](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/0003-longest-substring-without-repeating-characters) |
 <!---LeetCode Topics End-->
