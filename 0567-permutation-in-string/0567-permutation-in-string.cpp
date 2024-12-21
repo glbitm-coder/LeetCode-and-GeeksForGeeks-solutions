@@ -1,36 +1,28 @@
 class Solution {
 public:
     bool checkInclusion(string s1, string s2) {
-        unordered_map<char, int> mp1, mp2;
-        for(int i = 0; i < s1.size(); ++i)
-        {
-            mp1[s1[i]]++;
+        vector<int> charFreq(26,0);
+        int n1 = s1.size(), n2 = s2.size();
+        for(int i = 0; i < n1; ++i){
+            charFreq[s1[i] - 'a']++;
         }
-        if(s1.size() > s2.size()) return false;
-        for(int j = 0; j <= s2.size() - s1.size(); ++j)
-        {
-            mp2 = mp1;
-            for(int i = j; i < j + s1.size(); ++i)
-            {
-                if(mp2.find(s2[i]) == mp2.end())
-                {
-                    break;
-                }
-                else
-                {
-                    mp2[s2[i]]--;
-                }
 
-                if(mp2[s2[i]] == 0)
-                {
-                    mp2.erase(s2[i]);
-                }
-                if(mp2.empty()){
-                    return true;
-                }
-
+        vector<int> chFreq(26,0);
+        if(n1 > n2){
+            return false;
+        }
+        for(int i = 0, j = n1; i < j; ++i){
+            chFreq[s2[i] - 'a']++;
+        }
+        if(chFreq == charFreq){
+            return true;
+        }
+        for(int i = 0, j= n1; j < n2; ++i,++j){
+            chFreq[s2[i] - 'a']--;
+            chFreq[s2[j] - 'a']++;
+            if(chFreq == charFreq){
+                return true;
             }
-            mp2.clear();
         }
         return false;
     }
