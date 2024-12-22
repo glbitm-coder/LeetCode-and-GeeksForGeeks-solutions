@@ -13,8 +13,7 @@ public:
             mp[t[i]]++;
         }
 
-        int need = mp.size();
-        int have = 0;
+        int need = mp.size(), have = 0;
         
         for(int i = 0, j = 0; i < s.size(); ++i){
 
@@ -36,10 +35,6 @@ public:
             }
             
         }
-        if(ans.second == -1){
-            return "";
-        }
-        string res = s.substr(ans.second, ans.first);
-        return res;
+        return ans.second == -1 ?  "" : s.substr(ans.second, ans.first);
     }
 };
