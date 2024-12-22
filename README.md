@@ -202,6 +202,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0792-binary-search](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/0792-binary-search) |
 | [0883-car-fleet](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/0883-car-fleet) |
 | [0907-koko-eating-bananas](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/0907-koko-eating-bananas) |
+| [1127-last-stone-weight](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/1127-last-stone-weight) |
 | [1129-longest-string-chain](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/1129-longest-string-chain) |
 | [1207-delete-nodes-and-return-forest](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/1207-delete-nodes-and-return-forest) |
 | [1335-maximum-candies-allocated-to-k-children](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/1335-maximum-candies-allocated-to-k-children) |
@@ -384,6 +385,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0239-sliding-window-maximum](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/0239-sliding-window-maximum) |
 | [0347-top-k-frequent-elements](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/0347-top-k-frequent-elements) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/0789-kth-largest-element-in-a-stream) |
+| [1127-last-stone-weight](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/1127-last-stone-weight) |
 ## Bucket Sort
 |  |
 | ------- |
