@@ -251,6 +251,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0044-wildcard-matching](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/0044-wildcard-matching) |
 | [0049-group-anagrams](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/0049-group-anagrams) |
 | [0072-edit-distance](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/0072-edit-distance) |
+| [0076-minimum-window-substring](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/0076-minimum-window-substring) |
 | [0093-restore-ip-addresses](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/0093-restore-ip-addresses) |
 | [0115-distinct-subsequences](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/0115-distinct-subsequences) |
 | [0125-valid-palindrome](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/0125-valid-palindrome) |
@@ -326,6 +327,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0003-longest-substring-without-repeating-characters](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0036-valid-sudoku](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/0036-valid-sudoku) |
 | [0049-group-anagrams](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/0049-group-anagrams) |
+| [0076-minimum-window-substring](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/0076-minimum-window-substring) |
 | [0128-longest-consecutive-sequence](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/0128-longest-consecutive-sequence) |
 | [0347-top-k-frequent-elements](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/0347-top-k-frequent-elements) |
 | [0424-longest-repeating-character-replacement](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/0424-longest-repeating-character-replacement) |
@@ -418,6 +420,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/0003-longest-substring-without-repeating-characters) |
+| [0076-minimum-window-substring](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/0076-minimum-window-substring) |
 | [0424-longest-repeating-character-replacement](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/0424-longest-repeating-character-replacement) |
 | [0567-permutation-in-string](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/0567-permutation-in-string) |
 <!---LeetCode Topics End-->
