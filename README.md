@@ -188,6 +188,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0188-best-time-to-buy-and-sell-stock-iv](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/0188-best-time-to-buy-and-sell-stock-iv) |
 | [0238-product-of-array-except-self](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/0238-product-of-array-except-self) |
+| [0239-sliding-window-maximum](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/0239-sliding-window-maximum) |
 | [0300-longest-increasing-subsequence](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/0300-longest-increasing-subsequence) |
 | [0309-best-time-to-buy-and-sell-stock-with-cooldown](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/0309-best-time-to-buy-and-sell-stock-with-cooldown) |
 | [0322-coin-change](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/0322-coin-change) |
@@ -378,6 +379,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Heap (Priority Queue)
 |  |
 | ------- |
+| [0239-sliding-window-maximum](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/0239-sliding-window-maximum) |
 | [0347-top-k-frequent-elements](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/0347-top-k-frequent-elements) |
 ## Bucket Sort
 |  |
@@ -421,6 +423,15 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0076-minimum-window-substring](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/0076-minimum-window-substring) |
+| [0239-sliding-window-maximum](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/0239-sliding-window-maximum) |
 | [0424-longest-repeating-character-replacement](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/0424-longest-repeating-character-replacement) |
 | [0567-permutation-in-string](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/0567-permutation-in-string) |
+## Queue
+|  |
+| ------- |
+| [0239-sliding-window-maximum](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/0239-sliding-window-maximum) |
+## Monotonic Queue
+|  |
+| ------- |
+| [0239-sliding-window-maximum](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/0239-sliding-window-maximum) |
 <!---LeetCode Topics End-->
