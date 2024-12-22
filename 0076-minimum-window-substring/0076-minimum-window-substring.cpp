@@ -22,17 +22,20 @@ public:
         }
 
         for(int i = 0, j = 0; i < s.size(); ++i){
+
+            if(i - j + 1 > ans.first){
+                if(j < s.size() && t.find(s[j]) != string::npos){
+                    mp1[s[j]]--;
+                }
+                ++j;
+                while(j < s.size() && t.find(s[j]) == string::npos){
+                    ++j;  
+                }
+            }
+
             if(t.find(s[i]) != string::npos){
                 mp1[s[i]]++;
-                if(i - j + 1 > ans.first){
-                    if(j < s.size() && t.find(s[j]) != string::npos){
-                        mp1[s[j]]--;
-                    }
-                    ++j;
-                    while(j < s.size() && t.find(s[j]) == string::npos){
-                        ++j;  
-                    }
-                }
+                
                 while(check(mp,mp1)){
                     if(i - j + 1 < ans.first){
                         ans.first = i - j + 1;
@@ -45,17 +48,6 @@ public:
                     ++j;
                     while(j < s.size() && t.find(s[j]) == string::npos){
                         ++j;
-                    }
-                }
-            }
-            else{
-                if(i - j + 1 > ans.first){
-                    if(j < s.size() && t.find(s[j]) != string::npos){
-                        mp1[s[j]]--;
-                    }
-                    ++j;
-                    while(j < s.size() && t.find(s[j]) == string::npos){
-                        ++j;  
                     }
                 }
             }
