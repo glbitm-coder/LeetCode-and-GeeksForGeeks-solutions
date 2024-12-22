@@ -35,7 +35,6 @@ public:
                 }
                 while(check(mp,mp1)){
                     if(i - j + 1 < ans.first){
-                        cout<<i<<" "<<j<<"\n";
                         ans.first = i - j + 1;
                         ans.second = j;
                     }
