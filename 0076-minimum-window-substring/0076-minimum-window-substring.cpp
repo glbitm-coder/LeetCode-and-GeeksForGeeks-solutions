@@ -18,8 +18,8 @@ public:
         
         for(int i = 0, j = 0; i < s.size(); ++i){
 
-            mp1[s[i]]++;
             char k = s[i];
+            mp1[k]++;
             if(mp1[k] == mp[k]){
                 ++have;
             }
@@ -29,10 +29,8 @@ public:
                     ans.second = j;
                 }
                 mp1[s[j]]--;
-                if(j < s.size() && mp.find(s[j]) != mp.end()){
-                    if(mp1[s[j]] < mp[s[j]]){
+                if(mp.find(s[j]) != mp.end() && mp1[s[j]] < mp[s[j]]){
                         --have;
-                    }
                 }
                 ++j;
             }
