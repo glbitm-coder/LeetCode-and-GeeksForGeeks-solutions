@@ -174,6 +174,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0036-valid-sudoku](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/0036-valid-sudoku) |
 | [0042-trapping-rain-water](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/0042-trapping-rain-water) |
 | [0049-group-anagrams](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/0049-group-anagrams) |
+| [0053-maximum-subarray](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/0053-maximum-subarray) |
 | [0074-search-a-2d-matrix](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/0074-search-a-2d-matrix) |
 | [0080-remove-duplicates-from-sorted-array-ii](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/0080-remove-duplicates-from-sorted-array-ii) |
 | [0084-largest-rectangle-in-histogram](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/0084-largest-rectangle-in-histogram) |
@@ -217,6 +218,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0022-generate-parentheses](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/0022-generate-parentheses) |
 | [0042-trapping-rain-water](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/0042-trapping-rain-water) |
 | [0044-wildcard-matching](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/0044-wildcard-matching) |
+| [0053-maximum-subarray](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/0053-maximum-subarray) |
 | [0072-edit-distance](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/0072-edit-distance) |
 | [0115-distinct-subsequences](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/0115-distinct-subsequences) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/0121-best-time-to-buy-and-sell-stock) |
@@ -390,6 +392,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0004-median-of-two-sorted-arrays](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/0004-median-of-two-sorted-arrays) |
+| [0053-maximum-subarray](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/0053-maximum-subarray) |
 | [0215-kth-largest-element-in-an-array](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/0215-kth-largest-element-in-an-array) |
 | [0347-top-k-frequent-elements](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/0347-top-k-frequent-elements) |
 | [1014-k-closest-points-to-origin](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/1014-k-closest-points-to-origin) |
