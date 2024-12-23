@@ -202,6 +202,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0792-binary-search](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/0792-binary-search) |
 | [0883-car-fleet](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/0883-car-fleet) |
 | [0907-koko-eating-bananas](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/0907-koko-eating-bananas) |
+| [1014-k-closest-points-to-origin](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/1014-k-closest-points-to-origin) |
 | [1127-last-stone-weight](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/1127-last-stone-weight) |
 | [1129-longest-string-chain](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/1129-longest-string-chain) |
 | [1207-delete-nodes-and-return-forest](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/1207-delete-nodes-and-return-forest) |
@@ -298,6 +299,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0347-top-k-frequent-elements](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/0347-top-k-frequent-elements) |
 | [0368-largest-divisible-subset](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/0368-largest-divisible-subset) |
 | [0883-car-fleet](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/0883-car-fleet) |
+| [1014-k-closest-points-to-origin](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/1014-k-closest-points-to-origin) |
 | [1129-longest-string-chain](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/1129-longest-string-chain) |
 | [1741-sort-array-by-increasing-frequency](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/1741-sort-array-by-increasing-frequency) |
 | [2846-robot-collisions](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/2846-robot-collisions) |
@@ -323,6 +325,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0150-evaluate-reverse-polish-notation](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0368-largest-divisible-subset](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/0368-largest-divisible-subset) |
+| [1014-k-closest-points-to-origin](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/1014-k-closest-points-to-origin) |
 ## Hash Table
 |  |
 | ------- |
@@ -379,12 +382,14 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0004-median-of-two-sorted-arrays](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/0004-median-of-two-sorted-arrays) |
 | [0347-top-k-frequent-elements](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/0347-top-k-frequent-elements) |
+| [1014-k-closest-points-to-origin](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/1014-k-closest-points-to-origin) |
 ## Heap (Priority Queue)
 |  |
 | ------- |
 | [0239-sliding-window-maximum](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/0239-sliding-window-maximum) |
 | [0347-top-k-frequent-elements](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/0347-top-k-frequent-elements) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/0789-kth-largest-element-in-a-stream) |
+| [1014-k-closest-points-to-origin](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/1014-k-closest-points-to-origin) |
 | [1127-last-stone-weight](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/1127-last-stone-weight) |
 ## Bucket Sort
 |  |
@@ -398,6 +403,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0347-top-k-frequent-elements](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/0347-top-k-frequent-elements) |
+| [1014-k-closest-points-to-origin](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/1014-k-closest-points-to-origin) |
 ## Prefix Sum
 |  |
 | ------- |
@@ -448,4 +454,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0789-kth-largest-element-in-a-stream](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/0789-kth-largest-element-in-a-stream) |
+## Geometry
+|  |
+| ------- |
+| [1014-k-closest-points-to-origin](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/1014-k-closest-points-to-origin) |
 <!---LeetCode Topics End-->
