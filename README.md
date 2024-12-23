@@ -340,6 +340,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0076-minimum-window-substring](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/0076-minimum-window-substring) |
 | [0128-longest-consecutive-sequence](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/0128-longest-consecutive-sequence) |
 | [0347-top-k-frequent-elements](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/0347-top-k-frequent-elements) |
+| [0355-design-twitter](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/0355-design-twitter) |
 | [0424-longest-repeating-character-replacement](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/0424-longest-repeating-character-replacement) |
 | [0567-permutation-in-string](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/0567-permutation-in-string) |
 | [0621-task-scheduler](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/0621-task-scheduler) |
@@ -396,6 +397,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0215-kth-largest-element-in-an-array](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/0215-kth-largest-element-in-an-array) |
 | [0239-sliding-window-maximum](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/0239-sliding-window-maximum) |
 | [0347-top-k-frequent-elements](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/0347-top-k-frequent-elements) |
+| [0355-design-twitter](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/0355-design-twitter) |
 | [0621-task-scheduler](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/0621-task-scheduler) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/0789-kth-largest-element-in-a-stream) |
 | [1014-k-closest-points-to-origin](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/1014-k-closest-points-to-origin) |
@@ -439,6 +441,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0155-min-stack](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/0155-min-stack) |
+| [0355-design-twitter](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/0355-design-twitter) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/0789-kth-largest-element-in-a-stream) |
 | [1023-time-based-key-value-store](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/1023-time-based-key-value-store) |
 ## Sliding Window
@@ -469,4 +472,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [1014-k-closest-points-to-origin](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/1014-k-closest-points-to-origin) |
+## Linked List
+|  |
+| ------- |
+| [0355-design-twitter](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/0355-design-twitter) |
 <!---LeetCode Topics End-->
