@@ -175,6 +175,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0042-trapping-rain-water](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/0042-trapping-rain-water) |
 | [0049-group-anagrams](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/0049-group-anagrams) |
 | [0053-maximum-subarray](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/0053-maximum-subarray) |
+| [0055-jump-game](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/0055-jump-game) |
 | [0074-search-a-2d-matrix](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/0074-search-a-2d-matrix) |
 | [0080-remove-duplicates-from-sorted-array-ii](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/0080-remove-duplicates-from-sorted-array-ii) |
 | [0084-largest-rectangle-in-histogram](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/0084-largest-rectangle-in-histogram) |
@@ -219,6 +220,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0042-trapping-rain-water](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/0042-trapping-rain-water) |
 | [0044-wildcard-matching](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/0044-wildcard-matching) |
 | [0053-maximum-subarray](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/0053-maximum-subarray) |
+| [0055-jump-game](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/0055-jump-game) |
 | [0072-edit-distance](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/0072-edit-distance) |
 | [0115-distinct-subsequences](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/0115-distinct-subsequences) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/0121-best-time-to-buy-and-sell-stock) |
@@ -276,6 +278,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0011-container-with-most-water](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/0011-container-with-most-water) |
 | [0044-wildcard-matching](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/0044-wildcard-matching) |
+| [0055-jump-game](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/0055-jump-game) |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
 | [0135-candy](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/0135-candy) |
 | [0621-task-scheduler](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/0621-task-scheduler) |
