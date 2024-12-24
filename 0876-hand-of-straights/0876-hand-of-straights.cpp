@@ -1,33 +1,21 @@
 class Solution {
 public:
     bool isNStraightHand(vector<int>& hand, int groupSize) {
-        int n = hand.size();
-        if(n % groupSize != 0) return false;
-
-
-        unordered_map<int,int> mp;
-        for(int i = 0; i < n; i++){
-            mp[hand[i]]++;
-        }
-        int start = 0;
-        for(int i = 0; i < n; ++i){
-            start = hand[i];
-            while(mp.find(start - 1) != mp.end()){
-                start = start - 1;
-            }
-            while(start <= hand[i]){
-                while(mp[start] > 0){
-                    for(int j = start; j < start + groupSize; ++j){
-                        if(mp.find(j) == mp.end()) return false;
-                        else{
-                            --mp[j];
-                            if(mp[j] == 0){
-                                mp.erase(j);
-                            }
-                        }
+        if (hand.size() % groupSize != 0) return false;
+        unordered_map<int, int> count;
+        for (int num : hand) count[num]++;
+        
+        for (int num : hand) {
+            int start = num;
+            while (count[start - 1] > 0) start--;
+            while (start <= num) {
+                while (count[start] > 0) {
+                    for (int i = start; i < start + groupSize; i++) {
+                        if (count[i] == 0) return false;
+                        count[i]--;
                     }
                 }
-                ++start;
+                start++;
             }
         }
         return true;
