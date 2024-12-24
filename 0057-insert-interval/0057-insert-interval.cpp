@@ -1,42 +1,37 @@
 class Solution {
 public:
     vector<vector<int>> insert(vector<vector<int>>& intervals, vector<int>& newInterval) {
-        bool isinserted = false;
-        int n = (int)intervals.size();
-        for(int i = 0; i < n; ++i)
-        {
-            if(intervals[i][0] > newInterval[1] && intervals[i][0] > newInterval[0])
-            {
-                auto it = intervals.begin() + i;
-                intervals.insert(it, newInterval);
-                isinserted = true;
-                return intervals;
-            }
-            if(intervals[i][1] >= newInterval[0])
-            {
-                int j = i;
-                auto start = intervals.begin() + i;
-                newInterval[0] = min(intervals[i][0], newInterval[0]);
-                ++i;
-                auto end = intervals.begin() + i;
-                while(i < n && intervals[i][0] <= newInterval[1])
-                {
-                     ++i;
-                    end = intervals.begin() + i;
+        int i = 0;
+        int n = intervals.size();
+        bool newIntervalPushed = false;
+        vector<vector<int>> ans;
+        if(n > 0 && intervals[0][0] > newInterval[1]){
+            ans.push_back(newInterval);
+            newIntervalPushed = true;
+        }
+        while(i < n){
+            if(intervals[i][1] < newInterval[0] || intervals[i][0] > newInterval[1]){
+                if(i - 1 >= 0 && intervals[i - 1][1] < newInterval[0] && intervals[i][0] > newInterval[1]){
+                    ans.push_back(newInterval);
+                    newIntervalPushed = true;
                 }
-                newInterval[1] = max(intervals[i - 1][1], newInterval[1]);
-                intervals.erase(start, end);
-                
-                intervals.insert(intervals.begin() + j, newInterval);
-                isinserted = true;
-                return intervals;
+                ans.push_back(intervals[i]);
+                ++i;
             }
-            
+            else{
+                ans.push_back(newInterval);
+                newIntervalPushed = true;
+                int m = ans.size() - 1;
+                while(i < n && !(intervals[i][1] < newInterval[0] || intervals[i][0] > newInterval[1])){
+                    ans[m][0] = min(ans[m][0], intervals[i][0]);
+                    ans[m][1] = max(ans[m][1], intervals[i][1]);
+                    ++i;
+                }
+            } 
         }
-        if(isinserted == false)
-        {
-            intervals.push_back(newInterval);
+        if(!newIntervalPushed){
+            ans.push_back(newInterval);
         }
-        return intervals;
+        return ans;
     }
 };
