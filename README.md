@@ -218,6 +218,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1207-delete-nodes-and-return-forest](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/1207-delete-nodes-and-return-forest) |
 | [1335-maximum-candies-allocated-to-k-children](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/1335-maximum-candies-allocated-to-k-children) |
 | [1741-sort-array-by-increasing-frequency](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/1741-sort-array-by-increasing-frequency) |
+| [1977-minimum-interval-to-include-each-query](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/1977-minimum-interval-to-include-each-query) |
 | [2026-merge-triplets-to-form-target-triplet](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/2026-merge-triplets-to-form-target-triplet) |
 | [2846-robot-collisions](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/2846-robot-collisions) |
 ## Dynamic Programming
@@ -336,6 +337,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1014-k-closest-points-to-origin](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/1014-k-closest-points-to-origin) |
 | [1129-longest-string-chain](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/1129-longest-string-chain) |
 | [1741-sort-array-by-increasing-frequency](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/1741-sort-array-by-increasing-frequency) |
+| [1977-minimum-interval-to-include-each-query](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/1977-minimum-interval-to-include-each-query) |
 | [2846-robot-collisions](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/2846-robot-collisions) |
 ## Simulation
 |  |
@@ -354,6 +356,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0907-koko-eating-bananas](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/0907-koko-eating-bananas) |
 | [1023-time-based-key-value-store](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/1023-time-based-key-value-store) |
 | [1335-maximum-candies-allocated-to-k-children](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/1335-maximum-candies-allocated-to-k-children) |
+| [1977-minimum-interval-to-include-each-query](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/1977-minimum-interval-to-include-each-query) |
 ## Math
 |  |
 | ------- |
@@ -437,6 +440,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0789-kth-largest-element-in-a-stream](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/0789-kth-largest-element-in-a-stream) |
 | [1014-k-closest-points-to-origin](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/1014-k-closest-points-to-origin) |
 | [1127-last-stone-weight](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/1127-last-stone-weight) |
+| [1977-minimum-interval-to-include-each-query](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/1977-minimum-interval-to-include-each-query) |
 ## Bucket Sort
 |  |
 | ------- |
@@ -513,4 +517,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0355-design-twitter](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/0355-design-twitter) |
+## Line Sweep
+|  |
+| ------- |
+| [1977-minimum-interval-to-include-each-query](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/1977-minimum-interval-to-include-each-query) |
 <!---LeetCode Topics End-->
