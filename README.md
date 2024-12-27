@@ -379,6 +379,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0128-longest-consecutive-sequence](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/0128-longest-consecutive-sequence) |
 | [0138-copy-list-with-random-pointer](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/0138-copy-list-with-random-pointer) |
 | [0141-linked-list-cycle](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/0141-linked-list-cycle) |
+| [0146-lru-cache](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/0146-lru-cache) |
 | [0347-top-k-frequent-elements](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/0347-top-k-frequent-elements) |
 | [0355-design-twitter](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/0355-design-twitter) |
 | [0424-longest-repeating-character-replacement](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/0424-longest-repeating-character-replacement) |
@@ -492,6 +493,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Design
 |  |
 | ------- |
+| [0146-lru-cache](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/0146-lru-cache) |
 | [0155-min-stack](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/0155-min-stack) |
 | [0295-find-median-from-data-stream](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/0295-find-median-from-data-stream) |
 | [0355-design-twitter](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/0355-design-twitter) |
@@ -536,6 +538,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0138-copy-list-with-random-pointer](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/0138-copy-list-with-random-pointer) |
 | [0141-linked-list-cycle](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/0141-linked-list-cycle) |
 | [0143-reorder-list](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/0143-reorder-list) |
+| [0146-lru-cache](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/0146-lru-cache) |
 | [0206-reverse-linked-list](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/0206-reverse-linked-list) |
 | [0355-design-twitter](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/0355-design-twitter) |
 ## Line Sweep
@@ -546,4 +549,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0023-merge-k-sorted-lists](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/0023-merge-k-sorted-lists) |
+## Doubly-Linked List
+|  |
+| ------- |
+| [0146-lru-cache](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/0146-lru-cache) |
 <!---LeetCode Topics End-->
