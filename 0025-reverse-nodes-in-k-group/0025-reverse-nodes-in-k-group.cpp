@@ -41,7 +41,7 @@ public:
 
             int c1 = 0;
             temp_curr = curr;
-            while(temp_curr != NULL){
+            while(temp_curr != NULL && c1 < k){
                 temp_curr = temp_curr->next;
                 ++c1;
             }
@@ -61,9 +61,6 @@ public:
             }
             groupStart->next = prev;
             groupStart = nextGroupStart;
-
-
-
         }
         groupStart->next = NULL;
         return head;
