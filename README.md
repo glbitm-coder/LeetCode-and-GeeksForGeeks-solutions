@@ -212,6 +212,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0876-hand-of-straights](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/0876-hand-of-straights) |
 | [0883-car-fleet](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/0883-car-fleet) |
 | [0907-koko-eating-bananas](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/0907-koko-eating-bananas) |
+| [0940-fruit-into-baskets](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/0940-fruit-into-baskets) |
 | [1014-k-closest-points-to-origin](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/1014-k-closest-points-to-origin) |
 | [1127-last-stone-weight](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/1127-last-stone-weight) |
 | [1129-longest-string-chain](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/1129-longest-string-chain) |
@@ -388,6 +389,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0621-task-scheduler](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/0621-task-scheduler) |
 | [0768-partition-labels](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/0768-partition-labels) |
 | [0876-hand-of-straights](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/0876-hand-of-straights) |
+| [0940-fruit-into-baskets](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/0940-fruit-into-baskets) |
 | [1023-time-based-key-value-store](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/1023-time-based-key-value-store) |
 | [1129-longest-string-chain](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/1129-longest-string-chain) |
 | [1207-delete-nodes-and-return-forest](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/1207-delete-nodes-and-return-forest) |
@@ -508,6 +510,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0239-sliding-window-maximum](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/0239-sliding-window-maximum) |
 | [0424-longest-repeating-character-replacement](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/0424-longest-repeating-character-replacement) |
 | [0567-permutation-in-string](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/0567-permutation-in-string) |
+| [0940-fruit-into-baskets](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/0940-fruit-into-baskets) |
 ## Queue
 |  |
 | ------- |
