@@ -29,7 +29,6 @@ public:
         if(root->left && root->right){
             ans = max(ans, leftVal + rightVal + root->val);
         }
-        cout<<root->val<<" "<<leftVal<<" "<<rightVal<<"\n";
         return max(max(root->val, root->val + leftVal), rightVal + root->val) ;
     }
     int maxPathSum(TreeNode* root) {
