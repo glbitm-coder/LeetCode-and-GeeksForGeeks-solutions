@@ -10,51 +10,33 @@
 
 class Solution {
 public:
-   void findforq(TreeNode* root, TreeNode* q,  unordered_set<TreeNode*>& forq)
-    {
-        if(q->val < root->val)
-        {
-            forq.insert(root);
-            findforq(root->left, q, forq);
-        }
-       else if(q->val > root->val)
-       {
-           forq.insert(root);
-           findforq(root->right, q, forq);
-       }
-       else{
-           forq.insert(root);
-       }
-    }
-    void findforp(TreeNode* root, TreeNode* p,  vector<TreeNode*>& checkp)
-    {
-        if(p->val < root->val)
-        {
-           checkp.push_back(root);
-            findforp(root->left, p, checkp);
-        }
-       else if(p->val > root->val)
-       {
-           checkp.push_back(root);
-           findforp(root->right, p, checkp);
-       }
-       else{
-           checkp.push_back(root);
-       }
-    }
-    
     TreeNode* lowestCommonAncestor(TreeNode* root, TreeNode* p, TreeNode* q) {
-        vector<TreeNode*> checkp;
-        findforp(root, p, checkp);
-        unordered_set<TreeNode*> forq;
-        findforq(root, q, forq);
-        for(int i = (int)checkp.size() - 1; i >= 0; --i)
-        {
-            if(forq.find(checkp[i]) != forq.end())
-            {
-                return checkp[i];
+        if(root == NULL) return NULL;
+        TreeNode* l = NULL, *r = NULL;
+        l = lowestCommonAncestor(root->left, p, q);
+        r = lowestCommonAncestor(root->right, p, q);
+
+        if(l || r){
+            if(l && r){
+                return root;
+            }
+            else if(l){
+                if(root->val == p->val || root->val == q->val) return root;
+                return l;
+            }
+            else{
+                if(root->val == p->val || root->val == q->val) return root;
+                return r;
             }
         }
-        return NULL;
+        else{
+            if(root->val == p->val || root->val == q->val){
+                return root;
+            }
+            else{
+                return NULL;
+            }
+        }
+
     }
 };
