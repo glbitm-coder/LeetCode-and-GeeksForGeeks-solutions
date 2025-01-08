@@ -11,26 +11,26 @@
  */
 class Solution {
 public:
-    TreeNode* create(int &curr, vector<int> &preorder, vector<int> &inorder, int inStart, int inEnd){
+    TreeNode* create(int &curr, vector<int> &preorder, vector<int> &inorder, int inStart, int inEnd, unordered_map<int,int> &mp){
 
         if(inStart > inEnd) return NULL;
         TreeNode* node = new TreeNode(preorder[curr]);
         int idx = -1;
-        for(int i = inStart; i <= inEnd; ++i){
-            if(preorder[curr] == inorder[i]){
-                idx = i;
-                break;
-            }
-        }
+        
+        idx = mp[preorder[curr]];
         ++curr;
-        node->left = create(curr, preorder, inorder, inStart, idx - 1);
-        node->right = create(curr, preorder, inorder, idx + 1, inEnd);
+        node->left = create(curr, preorder, inorder, inStart, idx - 1, mp);
+        node->right = create(curr, preorder, inorder, idx + 1, inEnd, mp);
         return node;
     }
 
     TreeNode* buildTree(vector<int>& preorder, vector<int>& inorder) {
         TreeNode* node = new TreeNode(preorder[0]);
         int curr = 0;
-        return create(curr, preorder, inorder, 0, inorder.size() - 1);
+        unordered_map<int,int> mp;
+        for(int i = 0; i < inorder.size(); ++i){
+            mp[inorder[i]] = i;
+        }
+        return create(curr, preorder, inorder, 0, inorder.size() - 1, mp);
     }
 };
