@@ -11,8 +11,7 @@
  */
 class Solution {
 public:
-    TreeNode* create(int &curr, vector<int> &preorder, vector<int> &inorder, int inStart, int inEnd
-    , unordered_map<int,int> &mp1, unordered_map<int,int> &mp2){
+    TreeNode* create(int &curr, vector<int> &preorder, vector<int> &inorder, int inStart, int inEnd){
 
         if(inStart > inEnd) return NULL;
         TreeNode* node = new TreeNode(preorder[curr]);
@@ -24,20 +23,14 @@ public:
             }
         }
         ++curr;
-        node->left = create(curr, preorder, inorder, inStart, idx - 1, mp1, mp2);
-        node->right = create(curr, preorder, inorder, idx + 1, inEnd, mp1, mp2);
+        node->left = create(curr, preorder, inorder, inStart, idx - 1);
+        node->right = create(curr, preorder, inorder, idx + 1, inEnd);
         return node;
     }
 
     TreeNode* buildTree(vector<int>& preorder, vector<int>& inorder) {
         TreeNode* node = new TreeNode(preorder[0]);
-        unordered_map<int,int> mp1;
-        unordered_map<int,int> mp2;
-        for(int i = 0; i <preorder.size(); ++i){
-            mp1[preorder[i]] = i;
-            mp2[inorder[i]] = i; 
-        }
         int curr = 0;
-        return create(curr, preorder, inorder, 0, inorder.size() - 1, mp1, mp2);
+        return create(curr, preorder, inorder, 0, inorder.size() - 1);
     }
 };
