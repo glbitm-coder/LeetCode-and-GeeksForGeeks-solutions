@@ -1,7 +1,6 @@
 class Solution {
 public:
     void backtrack(int prev , vector<int> &candidates, int target, set<vector<int>> &ans, vector<int> &curr){
-        
         if(target < 0) return;
         if(target == 0){
             ans.insert(curr);
@@ -15,13 +14,11 @@ public:
         return;
     }
     vector<vector<int>> combinationSum(vector<int>& candidates, int target) {
-        vector<vector<int>> ans;
+        
         vector<int> curr;
         set<vector<int>> s;
         backtrack(0, candidates, target, s, curr);
-        for(auto it:s){
-            ans.push_back(it);
-        }
+        vector<vector<int>> ans(s.begin(), s.end());
         return ans;
     }
 };
