@@ -12,28 +12,35 @@ public:
         }
         return true;
     }
-    void helper(string curr, vector<string>& curr_ans, vector<vector<string>>& ans)
+    
+    void backtrack(vector<string> &currAns, string s, vector<vector<string>> &ans, int n)
     {
-        if(curr.size() == 0)
-        {
-            ans.push_back(curr_ans);
+        for(auto it:currAns){
+            int val;
+            val += it.size();
+            if(val == n){
+                ans.push_back(currAns);
+                return;
+            }
+            else if(val > n) return;
         }
-        for(int i = 0; i < curr.size(); ++i)
-        {
-            string prefix = curr.substr(0,i+1);
-            string ros = curr.substr(i + 1);
-            if(isPalindrome(prefix))
-            {
-                curr_ans.push_back(prefix);
-                helper(ros, curr_ans, ans);
-                curr_ans.pop_back();
+
+        string palindrome = "";
+        for(int i = 0; i < s.size(); ++i){
+            palindrome += s[i];
+            if(isPalindrome(palindrome)){
+                string str = s.substr(i + 1);
+                currAns.push_back(palindrome);
+                backtrack(currAns, str, ans, n);
+                currAns.pop_back();
             }
         }
     }
+
     vector<vector<string>> partition(string s) {
+        vector<string> currAns;
         vector<vector<string>> ans;
-        vector<string> curr_ans;
-        helper(s, curr_ans, ans);
+        backtrack(currAns, s, ans, s.size());
         return ans;
     }
 };
