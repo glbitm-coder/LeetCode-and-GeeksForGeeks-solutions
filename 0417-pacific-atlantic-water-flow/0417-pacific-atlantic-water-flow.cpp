@@ -44,7 +44,6 @@ public:
             if(atlantic.find(it) != atlantic.end()){
                 vector<int> sub{it.first,it.second};
                 ans.push_back(sub);
-                sub.clear();
             }
         }
         
