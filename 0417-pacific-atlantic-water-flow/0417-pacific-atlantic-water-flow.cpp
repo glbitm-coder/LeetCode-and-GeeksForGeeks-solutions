@@ -18,31 +18,25 @@ public:
 
     vector<vector<int>> pacificAtlantic(vector<vector<int>>& heights) {
         
-    set<pair<int,int>> pacific;
-    set<pair<int,int>> atlantic;
+        set<pair<int,int>> pacific;
+        set<pair<int,int>> atlantic;
         int rows = heights.size(), cols = heights[0].size();
         vector<vector<bool>> visited(rows, vector<bool> (cols, false));
+        vector<vector<bool>> visited2(rows, vector<bool> (cols, false));
         for(int col = 0; col < cols; ++col){
             if(!visited[0][col]){
                 dfs(0, col, rows, cols, heights, visited, pacific);
+            }
+            if(!visited2[rows - 1][col]){
+                dfs(rows - 1, col, rows, cols, heights, visited2, atlantic);
             }
         }
         for(int row = 0; row < rows; ++row){
             if(!visited[row][0]){
                 dfs(row, 0, rows, cols, heights, visited, pacific);
             }
-        }
-        for(int i = 0; i < rows; ++i){
-            fill(visited[i].begin(), visited[i].end(), false);
-        }
-        for(int col = 0; col < cols; ++col){
-            if(!visited[rows - 1][col]){
-                dfs(rows - 1, col, rows, cols, heights, visited, atlantic);
-            }
-        }
-        for(int row = 0; row < rows; ++row){
-            if(!visited[row][cols - 1]){
-                dfs(row, cols - 1, rows, cols, heights, visited, atlantic);
+            if(!visited2[row][cols - 1]){
+                dfs(row, cols - 1, rows, cols, heights, visited2, atlantic);
             }
         }
         vector<vector<int>> ans;
