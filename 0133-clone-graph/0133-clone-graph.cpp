@@ -22,32 +22,32 @@ public:
 class Solution {
 public:
     unordered_map<Node*, Node*> mp;
-    void createNodes(Node* node, unordered_map<Node*, bool> &visited){
+    unordered_map<Node*, bool> visited;
+    void createNodes(Node* node){
         if(node == NULL) return;
         if(visited[node]) return;
         visited[node] = true;
         Node* newNode = new Node(node->val);
         mp[node] = newNode;
         for(auto it: node->neighbors){
-            createNodes(it, visited);
+            createNodes(it);
         }
     }
 
-    void connect(Node* node, unordered_map<Node*, bool> &visited){
+    void connect(Node* node){
         if(node == NULL) return;
         if(visited[node]) return;
         visited[node] = true;
         for(auto it:node->neighbors){
             mp[node]->neighbors.push_back(mp[it]);
-            connect(it, visited);
+            connect(it);
         }
     }
     
     Node* cloneGraph(Node* node) {
-        unordered_map<Node*, bool> visited;
-        createNodes(node, visited);
+        createNodes(node);
         visited.clear();
-        connect(node, visited);
+        connect(node);
         return mp[node];
     }
 };
