@@ -20,8 +20,7 @@ public:
         
         set<pair<int,int>> pacific, atlantic;
         int rows = heights.size(), cols = heights[0].size();
-        vector<vector<bool>> visited(rows, vector<bool> (cols, false));
-        vector<vector<bool>> visited2(rows, vector<bool> (cols, false));
+        vector<vector<bool>> visited(rows, vector<bool> (cols, false)), visited2(rows, vector<bool> (cols, false));
         for(int col = 0; col < cols; ++col){
             if(!visited[0][col]){
                 dfs(0, col, rows, cols, heights, visited, pacific);
