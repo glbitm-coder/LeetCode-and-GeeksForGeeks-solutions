@@ -15,10 +15,7 @@ public:
         }
     }
     int numIslands(vector<vector<char>>& grid) {
-        int rows = grid.size();
-        int cols = grid[0].size();
-
-        int ans = 0;
+        int rows = grid.size(), cols = grid[0].size(), ans = 0;
         vector<vector<bool>> visited(rows, vector<bool> (cols, false));
         for(int i = 0; i < rows; ++i){
             for(int j = 0; j < cols; ++j){
