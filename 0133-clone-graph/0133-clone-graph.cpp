@@ -28,7 +28,7 @@ public:
         visited[node] = true;
         Node* newNode = new Node(node->val);
         mp[node] = newNode;
-        for(auto &it: node->neighbors){
+        for(auto it: node->neighbors){
             createNodes(it, visited);
         }
     }
@@ -37,7 +37,7 @@ public:
         if(node == NULL) return;
         if(visited[node]) return;
         visited[node] = true;
-        for(auto &it:node->neighbors){
+        for(auto it:node->neighbors){
             mp[node]->neighbors.push_back(mp[it]);
             connect(it, visited);
         }
