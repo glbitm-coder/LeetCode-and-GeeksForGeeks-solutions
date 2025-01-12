@@ -2,13 +2,14 @@ class Solution {
 public:
     vector<int> xDir{1, -1, 0, 0};
     vector<int> yDir{0, 0, -1, 1};
+    int xVal = 0, yVal = 0;
     void dfs(int x, int y, int rows, int cols, vector<vector<char>> &grid, vector<vector<bool>> &visited)
     {
         if(visited[x][y]) return;
         visited[x][y] = true;
         for(int i = 0; i < 4; ++i){
-            int xVal = x + xDir[i];
-            int yVal = y + yDir[i];
+            xVal = x + xDir[i];
+            yVal = y + yDir[i];
             if(xVal >= 0 && yVal >= 0 && xVal < rows && yVal < cols && !visited[xVal][yVal] && grid[xVal][yVal] == '1'){
                 dfs(xVal, yVal, rows, cols, grid, visited);
             }
