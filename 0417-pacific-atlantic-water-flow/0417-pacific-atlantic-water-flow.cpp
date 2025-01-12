@@ -18,8 +18,7 @@ public:
 
     vector<vector<int>> pacificAtlantic(vector<vector<int>>& heights) {
         
-        set<pair<int,int>> pacific;
-        set<pair<int,int>> atlantic;
+        set<pair<int,int>> pacific, atlantic;
         int rows = heights.size(), cols = heights[0].size();
         vector<vector<bool>> visited(rows, vector<bool> (cols, false));
         vector<vector<bool>> visited2(rows, vector<bool> (cols, false));
@@ -40,9 +39,11 @@ public:
             }
         }
         vector<vector<int>> ans;
+        vector<int> sub(2,0);
         for(auto it:pacific){
             if(atlantic.find(it) != atlantic.end()){
-                vector<int> sub{it.first,it.second};
+                sub[0] = it.first;
+                sub[1] = it.second;
                 ans.push_back(sub);
             }
         }
