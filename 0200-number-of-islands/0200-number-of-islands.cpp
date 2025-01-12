@@ -4,7 +4,6 @@ public:
     vector<int> yDir{0, 0, -1, 1};
     void dfs(int x, int y, int rows, int cols, vector<vector<char>> &grid, vector<vector<bool>> &visited)
     {
-        if(x == rows || x == -1 || y == cols || y == -1) return;
         if(visited[x][y]) return;
         visited[x][y] = true;
         for(int i = 0; i < 4; ++i){
