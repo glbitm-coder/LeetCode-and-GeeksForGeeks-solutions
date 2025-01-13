@@ -1,49 +1,37 @@
 class Solution {
 public:
-    bool isCyclic(int V, vector<vector<int>> &adj) {
-        //bfs
-        //kahn's algo
-        vector<int> inDegree(V, 0);
-	    for(int i = 0; i < V; ++i){
-	        for(int j = 0; j < adj[i].size(); ++j){
-	            inDegree[adj[i][j]]++;
-	        }
-	    }
-	    
-	    queue<int> q;
-	    for(int i = 0; i < inDegree.size(); ++i){
-	        if(inDegree[i] == 0){
-	            q.push(i);
-	        }
-	    }
-	    
-	    int count = 0;
-	    while(!q.empty()){
-	        int curr = q.front();
-	        ++count;
-	        q.pop();
-	        for(int i = 0; i < adj[curr].size(); ++i){
-	            if(inDegree[adj[curr][i]] == 0){
-	                continue;
-	            }
-	            inDegree[adj[curr][i]]--;
-	            if(inDegree[adj[curr][i]] == 0){
-	                q.push(adj[curr][i]);
-	            }
-	        }
-	    }
-	    return count!=V;
-        
-        
+    void dfs(int curr, unordered_map<int,vector<int>> &mp, bool &ans, vector<bool> &todo, vector<bool> &completed){
+        if(todo[curr]) {
+            ans = false;
+            return;
+        }
+        if(completed[curr]) {
+            return;
+        }
+        todo[curr] = true;
+        completed[curr] = true;
+
+        for(auto it:mp[curr]){
+            dfs(it, mp, ans, todo, completed);
+        }
+        todo[curr] = false;
+        return;
     }
+
     bool canFinish(int numCourses, vector<vector<int>>& prerequisites) {
-        vector<vector<int>> adj(numCourses, vector<int> ());
-        for(int i = 0; i < prerequisites.size(); ++i){
-            adj[prerequisites[i][0]].push_back(prerequisites[i][1]);
+        int n = prerequisites.size();
+        unordered_map<int,vector<int>> mp;
+
+        for(int i = 0; i < n; ++i){
+            mp[prerequisites[i][1]].push_back(prerequisites[i][0]);
         }
-        if(isCyclic(numCourses, adj)){
-            return false;
+        bool ans = true;
+        vector<bool> completed(numCourses, false), todo(numCourses, false);
+        for(int i = 0; i < numCourses; ++i){
+            if(!completed[i]){
+                dfs(i, mp, ans, todo, completed);
+            }
         }
-        return true;
+        return ans; 
     }
 };
