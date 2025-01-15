@@ -1,83 +1,61 @@
 class Solution {
 public:
-   
-
-    int bfs(int curr, string target, vector<string> &wordList, vector<bool> &visited, int n)
-    {
-        queue<pair<string,int>> q;
-        q.push({wordList[curr],1});
-
-        unordered_set<string> st(wordList.begin(), wordList.end());
-
-        st.erase(wordList[curr]);
-
-        while(!q.empty()){
-            pair<string,int> now = q.front();
-            string word = now.first;
-            int level = now.second;
-            q.pop();
-
-            if(word == target){
-                return level;
+    bool isSatisfied(string &beginWord, string &next){
+        int count = 0;
+        for(int i = 0; i < beginWord.size(); ++i){
+            if(beginWord[i] != next[i]){
+                ++count;
             }
-            
-            for(int i = 0; i < word.size(); ++i){
-                char original = word[i];
-                for(char j = 'a'; j <= 'z'; ++j){
-                    word[i] = j;
-                    if(st.find(word) != st.end()){
-                        st.erase(word);
-                        q.push({word, level + 1});
-                    }
-                }
-                word[i] = original;
-            }            
+            if(count == 2) return false;
         }
-
-        return 0;
+        return true;
+    }
+    void createGraph(string beginWord, vector<string> &wordList, unordered_map<string, vector<string>> &mp){
+        for(auto it:wordList){
+            for(auto i:wordList){
+                if(it != i && isSatisfied(it, i)){
+                    mp[it].push_back(i);
+                }
+            }
+        }
+        if(mp.find(beginWord) != mp.end()) return;
+        for(auto i:wordList){
+            if(i != beginWord && isSatisfied(i, beginWord)){
+                mp[beginWord].push_back(i);
+            }
+        }
     }
     int ladderLength(string beginWord, string endWord, vector<string>& wordList) {
-        int n = wordList.size();
+        unordered_map<string, bool> visited;
+        for(auto it:wordList){
+            visited[it] = false;
+        }
+        unordered_map<string, vector<string>> mp;
+        createGraph(beginWord, wordList, mp);
+        int ans = 0;
+        queue<string> q;
+        q.push(beginWord);
+        q.push("");
+        string str;
+        while(!q.empty()){
+            str = q.front();
+            q.pop();
+            if(str.size() == 0){
+                ++ans;
+                if(q.empty()) return 0;
+                q.push(str);
+            }
+            else{
+                if(str == endWord) return ans + 1;
+                for(auto it: mp[str]){
+                    if(!visited[it] && isSatisfied(str, it)){
 
-        
-        bool isContain = false;
-        bool isContainEndWord = false;
-
-        for(int i = 0; i < n; ++i){
-            if(wordList[i] == endWord)
-            {
-                isContainEndWord = true;
-                break;
+                        q.push(it); 
+                        visited[it] = true; 
+                    }
+                }
             }
         }
-
-        if(!isContainEndWord)
-        {
-            return 0;
-        }
-
-
-        int value;
-        for(int i = 0; i < n; ++i){
-            vector<bool> visited(n, false);
-            vector<int> ans(n, INT_MAX);
-            if(wordList[i] == beginWord){
-                isContain = true;
-                value = bfs(i, endWord, wordList, visited, n);
-            }
-        }
-        
-        if(!isContain){
-            wordList.push_back(beginWord);
-            n = n + 1;
-            vector<bool> visited(n, false);
-            vector<int> ans(n, INT_MAX);
-            value = bfs(n - 1, endWord, wordList, visited, n);
-        }   
-
-        if(value == INT_MAX)
-            return 0;
-
-        return value;
+        return ans;
     }
 };
