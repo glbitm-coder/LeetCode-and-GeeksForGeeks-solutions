@@ -16,7 +16,6 @@ public:
     vector<int> findOrder(int numCourses, vector<vector<int>>& prerequisites) {
         unordered_map<int,int> inDegree;
         unordered_map<int,vector<int>> mp;
-        vector<bool> visited(numCourses, false);
         vector<int> ans;
 
         for(int i = 0; i < numCourses; ++i){
