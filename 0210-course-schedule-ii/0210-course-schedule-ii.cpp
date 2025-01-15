@@ -1,14 +1,14 @@
 class Solution {
 public:
-    void dfs(int curr, unordered_map<int,int> &inDegree, unordered_map<int, vector<int>> &mp, vector<int> &ans, vector<bool> &visited){
-        visited[curr] = true;
+    void dfs(int curr, unordered_map<int,int> &inDegree, unordered_map<int, vector<int>> &mp, vector<int> &ans){
 
         ans.push_back(curr);
         
         for(auto it:mp[curr]){
             inDegree[it]--;
-            if(!visited[it] && inDegree[it] == 0){
-                dfs(it, inDegree, mp, ans, visited);
+            if(inDegree.find(it) != inDegree.end() && inDegree[it] == 0){
+                inDegree.erase(it);
+                dfs(it, inDegree, mp, ans);
             }
         }
     }
@@ -27,8 +27,9 @@ public:
             mp[it[1]].push_back(it[0]);
         }
         for(int i = 0; i < numCourses; ++i){
-            if(inDegree[i] == 0 && !visited[i]){
-                dfs(i, inDegree, mp, ans, visited);
+            if(inDegree.find(i) != inDegree.end() && inDegree[i] == 0){
+                inDegree.erase(i);
+                dfs(i, inDegree, mp, ans);
             }
         }
         if(ans.size() != numCourses) ans.resize(0);
