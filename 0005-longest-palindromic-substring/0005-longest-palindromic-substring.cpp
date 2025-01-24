@@ -1,11 +1,7 @@
 class Solution {
 public:
     string longestPalindrome(string s) {
-        int n = s.length();
-        int count = 0;
-        string ans;
-        int max= 0;
-        int start = 0;
+        int n = s.length(), count = 0, max= 0, start = 0;
         bool dp[n][n];
         for(int gap = 0; gap < n; ++gap){
             for(int i = 0, j  = gap; j < n; ++i, ++j){
