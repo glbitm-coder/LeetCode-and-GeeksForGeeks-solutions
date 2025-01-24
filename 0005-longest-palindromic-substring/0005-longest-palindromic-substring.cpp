@@ -6,7 +6,7 @@ public:
         string ans;
         int max= 0;
         int start = 0;
-        vector<vector<bool>> dp(n, vector<bool> (n, false));
+        bool dp[n][n];
         for(int gap = 0; gap < n; ++gap){
             for(int i = 0, j  = gap; j < n; ++i, ++j){
                 if(gap == 0){
