@@ -5,6 +5,7 @@ public:
         int count = 0;
         string ans;
         int max= 0;
+        int start = 0;
         vector<vector<bool>> dp(n, vector<bool> (n, false));
         for(int gap = 0; gap < n; ++gap){
             for(int i = 0, j  = gap; j < n; ++i, ++j){
@@ -28,12 +29,12 @@ public:
                     }
                 }
                 if(dp[i][j] and (j - i + 1) > max){
-                    ans =s.substr(i, j - i + 1);
+                    start = i;
                     max = j - i + 1;
                     
                 }
             }
         }
-        return ans;
+        return s.substr(start, max);
     }
 };
