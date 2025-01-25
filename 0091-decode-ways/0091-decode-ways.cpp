@@ -1,39 +1,22 @@
 class Solution {
 public:
-    int helper(string s, unordered_set<string> &us, unordered_map<string, int> &mp){
-        if(s.size() == 0){
-            return 1;
-        }
-        if(s.size() == 1){
-            if(s == "0") return 0;
-            else{
-                mp[s] = 1;
-                return 1;
-            }
-        } 
 
-        string str = "";
-        int ans = 0;
-        for(int i = 0; i < 2; ++i){
-            str += s[i];
-            if(us.find(str) != us.end()){
-                string st = s.substr(i + 1);
-                if(mp.find(st) != mp.end()){
-                    ans += mp[st];
-                    continue;
-                }
-                ans += helper(st, us, mp);
+    int numDecodings(string s) {
+        int n = s.size();
+        int dp[n + 1];
+        for(int i = 0; i <= n; ++i){
+            dp[i] = 0;
+        }
+        dp[n] = 1;
+        for(int i = n - 1; i >= 0; --i){
+            if(s[i] != '0'){
+                dp[i] += dp[i + 1];
+            }
+            if(i + 2 <= n && (s[i] == '1' || (s[i] == '2' &&  s[i + 1] <= '6'))){
+                cout<<s[i]<<"\n";
+                dp[i] += dp[i + 2];
             }
         }
-        mp[s] = ans;
-        return ans;
-    }
-    int numDecodings(string s) {
-        unordered_set<string> us;
-        unordered_map<string, int> mp;
-        for(int i = 1; i <= 26; ++i){
-            us.insert(to_string(i));
-        }
-        return helper(s, us, mp);
+        return dp[0];
     }
 };
