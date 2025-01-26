@@ -1,12 +1,12 @@
 class Solution {
 public:
-    bool helper(int idx, string s, string curr, unordered_set<string> &wordDict, unordered_map<int, bool> &mp){
+    bool helper(int idx, string s, string curr, unordered_set<string> &wordDict, vector<int> &mp){
         
         if(idx == s.size()){
             mp[idx] = true;
             return true;
         }
-        if(mp.find(idx) != mp.end()){
+        if(mp[idx] != -1){
             return mp[idx];
         }
         for(int i = idx; i <s.size(); ++i ){
@@ -25,7 +25,7 @@ public:
 
     bool wordBreak(string s, vector<string>& wordDict) {
         unordered_set<string> us;
-        unordered_map<int, bool> mp;
+        vector<int> mp(s.size() + 1, -1);
         for(auto it:wordDict){
             us.insert(it);
         }
