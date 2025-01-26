@@ -1,34 +1,17 @@
 class Solution {
 public:
-    bool helper(int idx, string s, string curr, unordered_set<string> &wordDict, vector<int> &mp){
-        
-        if(idx == s.size()){
-            mp[idx] = true;
-            return true;
-        }
-        if(mp[idx] != -1){
-            return mp[idx];
-        }
-        for(int i = idx; i <s.size(); ++i ){
-            curr = curr + s[i];
-            if(wordDict.find(curr) != wordDict.end()){
-                bool val = helper(i + 1, s, "", wordDict, mp);
-                if(val){
-                    mp[idx] = val;
-                    return val;
+    bool wordBreak(string s, vector<string>& wordDict) {
+        vector<int> dp(s.size() + 1, 0);
+        dp[0] = 1;
+        unordered_set<string> us(wordDict.begin(), wordDict.end());
+        for(int i = 1; i <= s.size(); ++i){
+            for(int j = 0;  j < i; ++j){
+                if(dp[j] && us.find(s.substr(j, i - j)) != us.end()){
+                    dp[i] = 1;
+                    break;
                 }
             }
         }
-        mp[idx] = false;
-        return false;
-    }
-
-    bool wordBreak(string s, vector<string>& wordDict) {
-        unordered_set<string> us;
-        vector<int> mp(s.size() + 1, -1);
-        for(auto it:wordDict){
-            us.insert(it);
-        }
-        return helper(0, s, "", us, mp);
+        return dp[s.size()];
     }
 };
