@@ -1,7 +1,7 @@
 class Solution {
 public:
     bool helper(int idx, string s, string curr, unordered_set<string> &wordDict, unordered_map<int, bool> &mp){
-        cout<<idx<<" "<<curr<<"\n";
+        
         if(idx == s.size()){
             mp[idx] = true;
             return true;
