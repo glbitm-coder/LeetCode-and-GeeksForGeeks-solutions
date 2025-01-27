@@ -250,6 +250,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0045-jump-game-ii](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/0045-jump-game-ii) |
 | [0053-maximum-subarray](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/0053-maximum-subarray) |
 | [0055-jump-game](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/0055-jump-game) |
+| [0062-unique-paths](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/0062-unique-paths) |
 | [0070-climbing-stairs](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/0070-climbing-stairs) |
 | [0072-edit-distance](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/0072-edit-distance) |
 | [0091-decode-ways](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/0091-decode-ways) |
@@ -436,6 +437,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0002-add-two-numbers](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/0002-add-two-numbers) |
+| [0062-unique-paths](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/0062-unique-paths) |
 | [0070-climbing-stairs](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/0070-climbing-stairs) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0368-largest-divisible-subset](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/0368-largest-divisible-subset) |
@@ -745,4 +747,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0139-word-break](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/0139-word-break) |
+## Combinatorics
+|  |
+| ------- |
+| [0062-unique-paths](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/0062-unique-paths) |
 <!---LeetCode Topics End-->
