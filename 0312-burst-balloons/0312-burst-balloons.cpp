@@ -1,6 +1,8 @@
 class Solution {
 public:
     int maxCoins(vector<int>& nums) {
+        //make array = 1,nums,1
+        //dp[i][j] means all balloons burst in i to j (excluding i or j)
         vector<int> pq;
         pq.push_back(1);
         for(auto it:nums) pq.push_back(it);
