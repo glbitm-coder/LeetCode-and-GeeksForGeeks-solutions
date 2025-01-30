@@ -1,78 +1,41 @@
-class DisjointSet
-{
-    public:
-    vector<int> parent, size;
-    DisjointSet(int n){
-        parent.resize(n + 1);
-        size.resize(n + 1);
-        for(int i = 0; i < n; ++i){
-            parent[i] = i;
-            size[i] = 1;
-        }
-    }
-    
-    int findUPar(int node){
-        if(node == parent[node]){
-            return node;
-        }
-        return parent[node] = findUPar(parent[node]);
-    }
-    void unionBySize(int u, int v){
-        int parentU = findUPar(u);
-        int parentV = findUPar(v);
-        
-        if(parentU == parentV)
-            return;
-            
-        if(size[parentU] < size[parentV]){
-            parent[parentU] = parentV;
-            size[parentV] += size[parentU];
-        }
-        else{
-            parent[parentV] = parentU;
-            size[parentU] += size[parentV];
-        }
-    }
-    
-};
-
 class Solution {
 public:
     int swimInWater(vector<vector<int>>& grid) {
         int n = grid.size();
-        vector<pair<int,int>> v;
-        for(int i = 0; i < n; ++i){
-            for(int j = 0; j < n; ++j){
-                v.push_back({grid[i][j], i * n + j});
+        vector<vector<bool>> visit(n, vector<bool>(n, false));
+        int minH = grid[0][0], maxH = grid[0][0];
+        for (int row = 0; row < n; row++) {
+            for (int col = 0; col < n; col++) {
+                maxH = max(maxH, grid[row][col]);
+                minH = min(minH, grid[row][col]);
             }
         }
 
-        sort(v.begin(), v.end());
-        
-        vector<int> xDir{0,0,1,-1};
-        vector<int> yDir{1,-1,0,0};
-
-        int ans = 0;
-
-        DisjointSet ds(n * n);
-        for(auto it:v){
-            int i = it.second / n;
-            int j = it.second % n;
-            int num = i * n + j;
-            for(int k = 0; k < 4; ++k){
-                int x = i + xDir[k];
-                int y = j + yDir[k];
-                int newNum = x * n + y;
-                if(x >= 0 && y >= 0 && x < n && y < n){
-                    if(grid[x][y] <= grid[i][j]){
-                        ds.unionBySize(num, newNum);
-                    }
-                }
+        for (int t = minH; t < maxH; t++) {
+            if (dfs(grid, visit, 0, 0, t)) {
+                return t;
             }
-            if(ds.findUPar(0) == ds.findUPar(n * n - 1)){
-                return grid[i][j];
+            for (int r = 0; r < n; r++) {
+                fill(visit[r].begin(), visit[r].end(), false);
             }
         }
-        return 0;
+        return maxH;
+    }
+
+private:
+    bool dfs(vector<vector<int>>& grid, vector<vector<bool>>& visit, 
+                                        int r, int c, int t) {
+        if (r < 0 || c < 0 || r >= grid.size() || 
+            c >= grid.size() || visit[r][c] || grid[r][c] > t) {
+            return false;
+        }
+        if (r == grid.size() - 1 && c == grid.size() - 1) {
+            return true;
+        }
+        visit[r][c] = true;
+        return dfs(grid, visit, r + 1, c, t) || 
+               dfs(grid, visit, r - 1, c, t) || 
+               dfs(grid, visit, r, c + 1, t) || 
+               dfs(grid, visit, r, c - 1, t);
     }
 };
