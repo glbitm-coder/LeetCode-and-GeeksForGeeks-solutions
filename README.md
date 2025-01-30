@@ -543,6 +543,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0329-longest-increasing-path-in-a-matrix](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/0329-longest-increasing-path-in-a-matrix) |
+| [0332-reconstruct-itinerary](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/0332-reconstruct-itinerary) |
 | [0417-pacific-atlantic-water-flow](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/0417-pacific-atlantic-water-flow) |
 | [0543-diameter-of-binary-tree](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/0543-diameter-of-binary-tree) |
 | [0572-subtree-of-another-tree](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/0572-subtree-of-another-tree) |
@@ -740,6 +741,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0207-course-schedule](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/0207-course-schedule) |
 | [0210-course-schedule-ii](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/0210-course-schedule-ii) |
 | [0329-longest-increasing-path-in-a-matrix](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/0329-longest-increasing-path-in-a-matrix) |
+| [0332-reconstruct-itinerary](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/0332-reconstruct-itinerary) |
 | [0684-redundant-connection](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/0684-redundant-connection) |
 | [0744-network-delay-time](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/0744-network-delay-time) |
 ## Topological Sort
@@ -766,4 +768,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0062-unique-paths](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/0062-unique-paths) |
+## Eulerian Circuit
+|  |
+| ------- |
+| [0332-reconstruct-itinerary](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/0332-reconstruct-itinerary) |
 <!---LeetCode Topics End-->
