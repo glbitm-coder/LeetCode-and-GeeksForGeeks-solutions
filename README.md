@@ -229,6 +229,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0739-daily-temperatures](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/0739-daily-temperatures) |
 | [0747-min-cost-climbing-stairs](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/0747-min-cost-climbing-stairs) |
 | [0792-binary-search](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/0792-binary-search) |
+| [0794-swim-in-rising-water](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/0794-swim-in-rising-water) |
 | [0876-hand-of-straights](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/0876-hand-of-straights) |
 | [0883-car-fleet](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/0883-car-fleet) |
 | [0907-koko-eating-bananas](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/0907-koko-eating-bananas) |
@@ -312,6 +313,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0684-redundant-connection](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/0684-redundant-connection) |
 | [0695-max-area-of-island](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/0695-max-area-of-island) |
 | [0744-network-delay-time](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/0744-network-delay-time) |
+| [0794-swim-in-rising-water](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/0794-swim-in-rising-water) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [1544-count-good-nodes-in-binary-tree](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/1544-count-good-nodes-in-binary-tree) |
 ## Backtracking
@@ -440,6 +442,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0300-longest-increasing-subsequence](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/0300-longest-increasing-subsequence) |
 | [0792-binary-search](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/0792-binary-search) |
+| [0794-swim-in-rising-water](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/0794-swim-in-rising-water) |
 | [0907-koko-eating-bananas](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/0907-koko-eating-bananas) |
 | [1023-time-based-key-value-store](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/1023-time-based-key-value-store) |
 | [1335-maximum-candies-allocated-to-k-children](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/1335-maximum-candies-allocated-to-k-children) |
@@ -551,6 +554,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0684-redundant-connection](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/0684-redundant-connection) |
 | [0695-max-area-of-island](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/0695-max-area-of-island) |
 | [0744-network-delay-time](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/0744-network-delay-time) |
+| [0794-swim-in-rising-water](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/0794-swim-in-rising-water) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [1207-delete-nodes-and-return-forest](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/1207-delete-nodes-and-return-forest) |
 | [1544-count-good-nodes-in-binary-tree](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/1544-count-good-nodes-in-binary-tree) |
@@ -605,6 +609,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0621-task-scheduler](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/0621-task-scheduler) |
 | [0744-network-delay-time](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/0744-network-delay-time) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/0789-kth-largest-element-in-a-stream) |
+| [0794-swim-in-rising-water](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/0794-swim-in-rising-water) |
 | [1014-k-closest-points-to-origin](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/1014-k-closest-points-to-origin) |
 | [1127-last-stone-weight](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/1127-last-stone-weight) |
 | [1977-minimum-interval-to-include-each-query](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/1977-minimum-interval-to-include-each-query) |
@@ -638,6 +643,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0329-longest-increasing-path-in-a-matrix](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/0329-longest-increasing-path-in-a-matrix) |
 | [0417-pacific-atlantic-water-flow](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/0417-pacific-atlantic-water-flow) |
 | [0695-max-area-of-island](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/0695-max-area-of-island) |
+| [0794-swim-in-rising-water](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/0794-swim-in-rising-water) |
 ## Union Find
 |  |
 | ------- |
@@ -646,6 +652,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0200-number-of-islands](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/0200-number-of-islands) |
 | [0684-redundant-connection](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/0684-redundant-connection) |
 | [0695-max-area-of-island](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/0695-max-area-of-island) |
+| [0794-swim-in-rising-water](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/0794-swim-in-rising-water) |
 | [1706-min-cost-to-connect-all-points](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/1706-min-cost-to-connect-all-points) |
 ## Monotonic Stack
 |  |
