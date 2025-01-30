@@ -1,54 +1,32 @@
 class Solution {
 public:
-    unordered_map<string, vector<string>> graph;
-    vector<string> route;
-    int numTickets = 0;
-    
-    vector<string> findItinerary(vector<vector<string>>& tickets) {
-		numTickets = tickets.size();
-        
-        if (numTickets == 0){
-			return route;
-		}
-        
-        // Construct the node and assign outgoing edges
-		for (auto& eachTicket : tickets){
-			graph[eachTicket[0]].push_back(eachTicket[1]);
-		}
-        
-        // Sort vertices in the adjacency list by lexical order
-        for (auto& edges : graph) {
-            sort(edges.second.begin(), edges.second.end());
-        }
-        
-        vector<string> temp;
-        dfsRoute("JFK", temp);
-        return route;
-    }
-    
-    void dfsRoute(string fromAirport, vector<string>& temp) {
-        temp.push_back(fromAirport);
-        
-        // we have used all tickets, this is a valid path return the result
-        if (temp.size() == numTickets+1) {
-            route = temp;
+    void dfs(string curr, unordered_map<string, vector<pair<string,bool>>> &mp, vector<string> &ans){
+        if(mp.find(curr) == mp.end()){
+            ans.push_back(curr);
             return;
         }
-        
-        vector<string>& neighbors = graph[fromAirport];
-        
-        // at the current layer, try its neighbors in the sorted order
-        for(int i =0; route.empty() &&i< neighbors.size(); i++) {
-            string toAirport = neighbors[i];
-            
-            // remove ticket(route) from graph so that it won't be reused 
-            neighbors.erase(neighbors.begin()+i);
-            dfsRoute(toAirport, temp);
-            // if the current path is invalid, restore the current ticket
-            neighbors.insert(neighbors.begin()+i, toAirport);            
+
+        for(int i = 0; i < mp[curr].size(); ++i){
+            if(mp[curr][i].second == false){
+                mp[curr][i].second = true;
+                dfs(mp[curr][i].first, mp, ans);
+            }
         }
-        
-        // remove the current vertice
-        temp.pop_back();
+        ans.push_back(curr);
+        return;
+    }
+
+    vector<string> findItinerary(vector<vector<string>>& tickets) {
+        unordered_map<string, vector<pair<string,bool>>> mp;
+        for(auto it:tickets){
+            mp[it[0]].push_back({it[1],false});
+        }
+        for(auto it:mp){
+            sort(mp[it.first].begin(), mp[it.first].end());
+        }
+        vector<string> ans;
+        dfs("JFK", mp, ans);
+        reverse(ans.begin(), ans.end());
+        return ans;
     }
 };
