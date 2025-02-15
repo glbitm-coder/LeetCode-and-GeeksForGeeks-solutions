@@ -1,17 +1,15 @@
 class Solution {
 public:
-    void createGraph(string order, unordered_map<char, unordered_set<char>> &mp){
+    unordered_map<char, unordered_set<char>> mp;
+    void createGraph(string order){
         for(int i = 0; i < order.size(); ++i){
             for(int j = i + 1; j < order.size(); ++j){
                 mp[order[i]].insert(order[j]);
             }
         }
     }
-    // bool isStringValid(string &str, unordered_map<char, unordered_set<char>> &mp){
 
-    // }
-
-    bool isPairValid(string &str1, string &str2, unordered_map<char, unordered_set<char>> &mp){
+    bool isPairValid(string &str1, string &str2){
         int minLength = min(str1.size(), str2.size());
         if(str1.substr(0,minLength) == str2.substr(0, minLength)){
             if(str1.size() > str2.size()) return false;
@@ -29,13 +27,11 @@ public:
         return true;
     }
     bool isAlienSorted(vector<string>& words, string order) {
-        unordered_map<char, unordered_set<char>> mp;
-        createGraph(order, mp);
+        
+        createGraph(order);
         for(int i = 0; i < words.size(); ++i){
-            // bool isVal = isStringValid(words[i], mp);
-            // if(!isVal) return false;
             for(int j = i + 1; j < words.size(); ++j){
-                bool isPair = isPairValid(words[i], words[j], mp);
+                bool isPair = isPairValid(words[i], words[j]);
                 if(!isPair) return false;
             }
         }
