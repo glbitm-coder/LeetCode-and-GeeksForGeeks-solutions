@@ -324,6 +324,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0803-cheapest-flights-within-k-stops](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/0803-cheapest-flights-within-k-stops) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [1544-count-good-nodes-in-binary-tree](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/1544-count-good-nodes-in-binary-tree) |
+| [1558-course-schedule-iv](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/1558-course-schedule-iv) |
 ## Backtracking
 |  |
 | ------- |
@@ -573,6 +574,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [1207-delete-nodes-and-return-forest](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/1207-delete-nodes-and-return-forest) |
 | [1544-count-good-nodes-in-binary-tree](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/1544-count-good-nodes-in-binary-tree) |
+| [1558-course-schedule-iv](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/1558-course-schedule-iv) |
 ## Binary Tree
 |  |
 | ------- |
@@ -772,6 +774,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0744-network-delay-time](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/0744-network-delay-time) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/0803-cheapest-flights-within-k-stops) |
 | [1039-find-the-town-judge](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/1039-find-the-town-judge) |
+| [1558-course-schedule-iv](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/1558-course-schedule-iv) |
 | [1706-min-cost-to-connect-all-points](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/1706-min-cost-to-connect-all-points) |
 ## Topological Sort
 |  |
@@ -779,6 +782,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0207-course-schedule](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/0207-course-schedule) |
 | [0210-course-schedule-ii](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/0210-course-schedule-ii) |
 | [0329-longest-increasing-path-in-a-matrix](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/0329-longest-increasing-path-in-a-matrix) |
+| [1558-course-schedule-iv](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/1558-course-schedule-iv) |
 ## Shortest Path
 |  |
 | ------- |
