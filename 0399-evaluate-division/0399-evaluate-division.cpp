@@ -1,6 +1,6 @@
 class Solution {
 public:
-    unordered_map<string, set<pair<string,double>>> mp;
+    unordered_map<string, unordered_map<string,double>> mp;
     double dfs(string curr, string target, unordered_set<string> &visit){
         if(mp.find(curr) == mp.end()) return -1.0;
         if(visit.find(curr) == visit.end()) visit.insert(curr);
@@ -20,8 +20,8 @@ public:
     vector<double> calcEquation(vector<vector<string>>& equations, vector<double>& values, vector<vector<string>>& queries) {
         
         for(int i = 0; i < equations.size(); ++i){
-            mp[equations[i][0]].insert({equations[i][1], values[i]});
-            mp[equations[i][1]].insert({equations[i][0], 1 / values[i]});
+            mp[equations[i][0]][equations[i][1]] = values[i];
+            mp[equations[i][1]][equations[i][0]] = 1 / values[i];
         }
 
         vector<double> ans;
