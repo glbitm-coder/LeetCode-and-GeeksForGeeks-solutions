@@ -297,6 +297,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0803-cheapest-flights-within-k-stops](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/0803-cheapest-flights-within-k-stops) |
 | [1129-longest-string-chain](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/1129-longest-string-chain) |
 | [1170-shortest-common-supersequence](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/1170-shortest-common-supersequence) |
+| [1236-n-th-tribonacci-number](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/1236-n-th-tribonacci-number) |
 | [1250-longest-common-subsequence](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/1250-longest-common-subsequence) |
 | [1437-minimum-insertion-steps-to-make-a-string-palindrome](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/1437-minimum-insertion-steps-to-make-a-string-palindrome) |
 ## Breadth-First Search
@@ -475,6 +476,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0150-evaluate-reverse-polish-notation](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0368-largest-divisible-subset](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/0368-largest-divisible-subset) |
 | [1014-k-closest-points-to-origin](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/1014-k-closest-points-to-origin) |
+| [1236-n-th-tribonacci-number](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/1236-n-th-tribonacci-number) |
 ## Hash Table
 |  |
 | ------- |
@@ -812,6 +814,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0070-climbing-stairs](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/0070-climbing-stairs) |
 | [0139-word-break](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/0139-word-break) |
 | [0329-longest-increasing-path-in-a-matrix](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/0329-longest-increasing-path-in-a-matrix) |
+| [1236-n-th-tribonacci-number](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/1236-n-th-tribonacci-number) |
 ## Trie
 |  |
 | ------- |
