@@ -1,30 +1,18 @@
 class Solution {
 public:
     int integerBreak(int n) {
-        unordered_map<int, int> freq;
-        freq[2] = 0;
-        freq[3] = 0;
-        if(n == 1 || n == 2) return 1;
-        if( n == 3) return 2;
-        while(n != 0){
-            if(n == 1){
-                freq[3]--;
-                freq[2] += 2;
-                break;
-            } else if(n == 2){
-                freq[2]++;
-                break;
-            } else{
-                freq[3]++;
-                n = n - 3;
+        vector<int> dp(n + 1, 0);
+        if(n <= 3) return n - 1;
+        dp[0] = 0;
+        dp[1] = 1;
+        dp[2] = 2;
+        dp[3] = 3;
+        
+        for(int i = 4; i <= n; ++i){
+            for(int j = 1; j <= i; ++j){
+                dp[i] = max(dp[i], dp[i - j] * j);
             }
         }
-        int ans = 1;
-        for(auto it:freq){
-            for(int i = 0; i < it.second; ++i){
-                ans *= it.first;
-            }
-        }
-        return ans;
+        return dp[n];
     }
 };
