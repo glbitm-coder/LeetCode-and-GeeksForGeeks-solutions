@@ -245,6 +245,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1129-longest-string-chain](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/1129-longest-string-chain) |
 | [1207-delete-nodes-and-return-forest](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/1207-delete-nodes-and-return-forest) |
 | [1335-maximum-candies-allocated-to-k-children](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/1335-maximum-candies-allocated-to-k-children) |
+| [1522-stone-game-iii](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/1522-stone-game-iii) |
 | [1706-min-cost-to-connect-all-points](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/1706-min-cost-to-connect-all-points) |
 | [1741-sort-array-by-increasing-frequency](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/1741-sort-array-by-increasing-frequency) |
 | [1977-minimum-interval-to-include-each-query](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/1977-minimum-interval-to-include-each-query) |
@@ -302,6 +303,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1236-n-th-tribonacci-number](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/1236-n-th-tribonacci-number) |
 | [1250-longest-common-subsequence](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/1250-longest-common-subsequence) |
 | [1437-minimum-insertion-steps-to-make-a-string-palindrome](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/1437-minimum-insertion-steps-to-make-a-string-palindrome) |
+| [1522-stone-game-iii](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/1522-stone-game-iii) |
 ## Breadth-First Search
 |  |
 | ------- |
@@ -482,6 +484,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0368-largest-divisible-subset](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/0368-largest-divisible-subset) |
 | [1014-k-closest-points-to-origin](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/1014-k-closest-points-to-origin) |
 | [1236-n-th-tribonacci-number](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/1236-n-th-tribonacci-number) |
+| [1522-stone-game-iii](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/1522-stone-game-iii) |
 ## Hash Table
 |  |
 | ------- |
@@ -836,4 +839,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [1706-min-cost-to-connect-all-points](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/1706-min-cost-to-connect-all-points) |
+## Game Theory
+|  |
+| ------- |
+| [1522-stone-game-iii](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/1522-stone-game-iii) |
 <!---LeetCode Topics End-->
