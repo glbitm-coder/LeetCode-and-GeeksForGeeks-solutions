@@ -1,26 +1,22 @@
 class Solution {
 public:
-    vector<int> dp;
-    int solve(int curr, vector<int> &stones, int n){
-        if(curr >= n) return 0;
-        if(dp[curr] != -1)
-            return dp[curr];
-        
-        int res = stones[curr] - solve(curr + 1, stones, n);
-        
-        if(curr + 1 < n )
-            res = max(res, stones[curr] + stones[curr + 1] - solve(curr + 2, stones, n));
-
-        if(curr + 2 < n)
-            res = max(res, stones[curr] + stones[curr + 1] + stones[curr + 2] - solve(curr + 3, stones, n));
-
-        return dp[curr] = res;
-
-    }
+    
     string stoneGameIII(vector<int>& stones) {
-        dp.resize(stones.size() + 1 , -1);
-        int res = solve(0, stones, stones.size());
+        int n = stones.size();
+        vector<int> dp(n + 1 , -1);
+        dp[n] = 0;
+        for(int i = n - 1; i >= 0; --i){
+            
+            dp[i] =  stones[i] - dp[i + 1];
 
+            if(i + 2 <= n)
+            dp[i] = max(dp[i], stones[i] + stones[i + 1] - dp[i + 2]);
+
+            if(i + 3 <= n)
+            dp[i] = max(dp[i], stones[i] + stones[i + 1] + stones[i + 2] - dp[i + 3]);
+        }
+
+        int res = dp[0];
         
         if(res > 0 ) return "Alice";
         else if(res < 0) return "Bob";
