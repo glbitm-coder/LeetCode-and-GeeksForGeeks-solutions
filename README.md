@@ -239,6 +239,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0876-hand-of-straights](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/0876-hand-of-straights) |
 | [0883-car-fleet](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/0883-car-fleet) |
 | [0907-koko-eating-bananas](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/0907-koko-eating-bananas) |
+| [0909-stone-game](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/0909-stone-game) |
 | [0940-fruit-into-baskets](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/0940-fruit-into-baskets) |
 | [0990-verifying-an-alien-dictionary](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/0990-verifying-an-alien-dictionary) |
 | [1014-k-closest-points-to-origin](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/1014-k-closest-points-to-origin) |
@@ -303,6 +304,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0714-best-time-to-buy-and-sell-stock-with-transaction-fee](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/0714-best-time-to-buy-and-sell-stock-with-transaction-fee) |
 | [0747-min-cost-climbing-stairs](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/0747-min-cost-climbing-stairs) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/0803-cheapest-flights-within-k-stops) |
+| [0909-stone-game](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/0909-stone-game) |
 | [1129-longest-string-chain](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/1129-longest-string-chain) |
 | [1130-last-stone-weight-ii](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/1130-last-stone-weight-ii) |
 | [1170-shortest-common-supersequence](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/1170-shortest-common-supersequence) |
@@ -488,6 +490,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0279-perfect-squares](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/0279-perfect-squares) |
 | [0343-integer-break](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/0343-integer-break) |
 | [0368-largest-divisible-subset](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/0368-largest-divisible-subset) |
+| [0909-stone-game](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/0909-stone-game) |
 | [1014-k-closest-points-to-origin](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/1014-k-closest-points-to-origin) |
 | [1236-n-th-tribonacci-number](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/1236-n-th-tribonacci-number) |
 | [1522-stone-game-iii](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/1522-stone-game-iii) |
@@ -850,5 +853,6 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Game Theory
 |  |
 | ------- |
+| [0909-stone-game](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/0909-stone-game) |
 | [1522-stone-game-iii](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/1522-stone-game-iii) |
 <!---LeetCode Topics End-->
