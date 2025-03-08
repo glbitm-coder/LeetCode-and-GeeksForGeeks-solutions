@@ -254,6 +254,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1741-sort-array-by-increasing-frequency](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/1741-sort-array-by-increasing-frequency) |
 | [1977-minimum-interval-to-include-each-query](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/1977-minimum-interval-to-include-each-query) |
 | [2026-merge-triplets-to-form-target-triplet](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/2026-merge-triplets-to-form-target-triplet) |
+| [2206-detonate-the-maximum-bombs](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/2206-detonate-the-maximum-bombs) |
 | [2846-robot-collisions](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/2846-robot-collisions) |
 ## Dynamic Programming
 |  |
@@ -344,6 +345,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [1544-count-good-nodes-in-binary-tree](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/1544-count-good-nodes-in-binary-tree) |
 | [1558-course-schedule-iv](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/1558-course-schedule-iv) |
+| [2206-detonate-the-maximum-bombs](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/2206-detonate-the-maximum-bombs) |
 ## Backtracking
 |  |
 | ------- |
@@ -494,6 +496,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1014-k-closest-points-to-origin](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/1014-k-closest-points-to-origin) |
 | [1236-n-th-tribonacci-number](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/1236-n-th-tribonacci-number) |
 | [1522-stone-game-iii](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/1522-stone-game-iii) |
+| [2206-detonate-the-maximum-bombs](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/2206-detonate-the-maximum-bombs) |
 ## Hash Table
 |  |
 | ------- |
@@ -606,6 +609,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1207-delete-nodes-and-return-forest](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/1207-delete-nodes-and-return-forest) |
 | [1544-count-good-nodes-in-binary-tree](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/1544-count-good-nodes-in-binary-tree) |
 | [1558-course-schedule-iv](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/1558-course-schedule-iv) |
+| [2206-detonate-the-maximum-bombs](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/2206-detonate-the-maximum-bombs) |
 ## Binary Tree
 |  |
 | ------- |
@@ -758,6 +762,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [1014-k-closest-points-to-origin](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/1014-k-closest-points-to-origin) |
+| [2206-detonate-the-maximum-bombs](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/2206-detonate-the-maximum-bombs) |
 ## Linked List
 |  |
 | ------- |
@@ -813,6 +818,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1039-find-the-town-judge](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/1039-find-the-town-judge) |
 | [1558-course-schedule-iv](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/1558-course-schedule-iv) |
 | [1706-min-cost-to-connect-all-points](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/1706-min-cost-to-connect-all-points) |
+| [2206-detonate-the-maximum-bombs](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/2206-detonate-the-maximum-bombs) |
 ## Topological Sort
 |  |
 | ------- |
