@@ -825,6 +825,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1558-course-schedule-iv](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/1558-course-schedule-iv) |
 | [1706-min-cost-to-connect-all-points](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/1706-min-cost-to-connect-all-points) |
 | [2206-detonate-the-maximum-bombs](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/2206-detonate-the-maximum-bombs) |
+| [3189-find-champion-ii](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/3189-find-champion-ii) |
 ## Topological Sort
 |  |
 | ------- |
