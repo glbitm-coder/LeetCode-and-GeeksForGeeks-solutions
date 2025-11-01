@@ -403,6 +403,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1170-shortest-common-supersequence](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/1170-shortest-common-supersequence) |
 | [1250-longest-common-subsequence](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/1250-longest-common-subsequence) |
 | [1437-minimum-insertion-steps-to-make-a-string-palindrome](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/1437-minimum-insertion-steps-to-make-a-string-palindrome) |
+| [3379-score-of-a-string](https://github.com/glbitm-coder/LeetCode-and-GeeksForGeeks-solutions/tree/master/3379-score-of-a-string) |
 ## Greedy
 |  |
 | ------- |
